@@ -325,6 +325,30 @@ html, body{
     width: 100%
 }
 
+.pengantin_pria {
+     margin-top: 120px; 
+     background-color: rgba(51, 51, 51, 0.1);
+}
+
+.nama_pengantin_pria h2 {
+    transform-origin: 0 0;
+    transform: rotate(272deg);
+    text-orientation: mixed;
+    margin-top: 550px;
+    color: #ffffff;
+    height: 100%;
+}
+.pengantin_pria img {
+    margin-bottom: 20px; 
+    margin-left: 30px; 
+    margin-top: -40px;
+    border:2px solid #fff;
+    box-shadow: 10px 10px rgba(51, 51, 51, 0.1);
+    -moz-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -webkit-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -khtml-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+}
+
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 42px;
