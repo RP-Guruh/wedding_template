@@ -11,7 +11,7 @@
     src: url('fonts/Poppins-Bold.ttf');
 }
 
-html, body{
+html, body{   
     margin: 0;
     height: 100vh;
     text-align: center;
@@ -364,7 +364,6 @@ html, body{
     text-orientation: mixed;
     margin-top: -320px;
     color: #ffffff;
-   
     width: 200%;
     font-weight: bold;
     margin-left: 266px;
@@ -411,7 +410,15 @@ html, body{
 
 .ig_wanita {
     padding-left: 40px;
-    
+}
+
+.ig_pria a{
+    height: 30px; width: 120px;
+    border-color: #5e5e5e; 
+    margin-top:400px; margin-left:180px; 
+    background-color: #5e5e5e;
+    font-size: 12px; 
+    font-weight: 500; 
 }
 
 .ig_wanita a{
@@ -437,7 +444,7 @@ html, body{
     margin-left:-79px; 
     font-size: 12px; 
     color: rgb(94, 94, 94);
-    font-weight: bold;
+    font-weight: bold; 
 }
 
 .pengantin_pria img {
@@ -461,4 +468,74 @@ html, body{
     .heading {
         font-size: 42px;
     }
-  }
+}
+
+@media only screen and (max-width: 360px) {
+    .bio_wanita h3 {
+        text-align: left;
+        padding-right: 40px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: 460px;
+        padding-left: 40px;
+    }
+
+    .bio_pria h3 {
+        text-align: right;
+        padding-right: 35px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: -30px;
+    }
+
+    .ig_pria a{
+        height: 30px; 
+        width: 120px;
+        border-color: #5e5e5e; 
+        margin-top:375px;
+        margin-left:180px; 
+        background-color: #5e5e5e;
+        font-size: 12px; 
+        font-weight: 500; 
+    }
+
+    .nama_pengantin_pria h2 {
+        transform-origin: 0 0;
+        transform: rotate(272deg);
+        text-orientation: mixed;
+        margin-top: 600px;
+        color: #ffffff;
+        height: 100%;
+        width: 200%;
+        font-weight: bold;
+        margin-left: -3px;
+        font-size: 50px;
+        font-family: "Analogue", Sans-serif;
+    }
+
+    .nama_pengantin_wanita h2 {
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        text-orientation: mixed;
+        margin-top: -320px;
+        color: #ffffff;
+        width: 200%;
+        font-weight: bold;
+        margin-left: 266px;
+        font-size: 50px;
+        font-family: "Analogue", Sans-serif;
+    }
+
+    .bio_wanita h3 {
+        text-align: left;
+        padding-right: 40px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: 480px;
+        padding-left: 40px;
+    }
+
+}
