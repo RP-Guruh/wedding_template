@@ -217,7 +217,7 @@ html, body{
 
 .slideshow li { 
     width: 100%;
-    height: 100%;
+    height: 120%;
     position: absolute;
     top: 100%;
     left: 0;
@@ -339,33 +339,34 @@ html, body{
     background-color: rgba(51, 51, 51, 0.1);
 }
 
-.pengantin_pria h2 {
+.nama_pengantin_pria h2 {
     transform-origin: 0 0;
-    transform: rotate(270deg);
+    transform: rotate(272deg);
     text-orientation: mixed;
+    margin-top: 650px;
+    color: #ffffff;
+    height: 100%;
+    width: 200%;
     font-weight: bold;
+    margin-left: 10px;
     font-size: 50px;
     font-family: "Analogue", Sans-serif;
-    color: white;
 }
-
-
 
 .nama_pengantin_wanita {
     height: 130%;
     background-image: linear-gradient(to bottom, #ffffff, #eaeaea, #d5d5d5, #c0c0c0, #acacac);background-image: linear-gradient(to bottom, #ffffff, #faf8fa, #f7f0f4, #f4e8ec, #f2e1e1);background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f6f5f5, #f2eff0, #eeeaea);
 }
 
-.pengantin_wanita h2 {
+.nama_pengantin_wanita h2 {
     transform-origin: 0 0;
     transform: rotate(90deg);
     text-orientation: mixed;
-    margin-top: -290px;
-    margin-left: 299px;
-    color: white;
-    width: 90%;
+    margin-top: -320px;
+    color: #ffffff;
+    width: 200%;
     font-weight: bold;
-   
+    margin-left: 266px;
     font-size: 50px;
     font-family: "Analogue", Sans-serif;
 }
@@ -374,32 +375,33 @@ html, body{
    width: 200%;
 }
 
-
-
-.pengantin_pria h3 {
+.bio_pria h3 {
+    text-align: right;
+    padding-right: 40px;
     color: rgb(94, 94, 94);
     font-family: "Analogue", Sans-serif;
     line-height: 32px;
-    padding-right: 27px;
+    margin-top: -40px;
 }
 
-.pengantin_wanita h3 {
-    padding-top: 270px;
+.bio_wanita h3 {
+    text-align: left;
+    padding-right: 40px;
     color: rgb(94, 94, 94);
     font-family: "Analogue", Sans-serif;
     line-height: 32px;
-   
+    margin-top: 530px;
+    padding-left: 40px;
 }
 
-.pengantin_wanita .spn1 {
-    margin-top: 90px;
-    padding-right: 90px;
+.bio_wanita .spn1 {
+    padding-left: 40px;
     font-size: 12px; 
     color: rgb(94, 94, 94);
     font-weight: bold;
 }
 
-.pengantin_wanita .spn2 {
+.bio_wanita .spn2 {
     padding-left: 40px;
     font-size: 12px; 
     color: rgb(94, 94, 94);
@@ -407,19 +409,13 @@ html, body{
 }
 
 .ig_wanita {
-    padding-right: 55px;
-    margin-top: -20px;
+    padding-left: 40px;
 }
 
-.ig_pria {
-    padding-top: 5px;
-    padding-left: 100px;
-}
-
-.pengantin_pria a  {
-    height: 30px; 
-    width: 120px;
+.ig_pria a{
+    height: 30px; width: 120px;
     border-color: #5e5e5e; 
+    margin-top:400px; margin-left:180px; 
     background-color: #5e5e5e;
     font-size: 12px; 
     font-weight: 500; 
@@ -435,15 +431,17 @@ html, body{
     font-weight: 500;
 }
 
-.pengantin_pria .spn1 {
-    padding-left: 125px;
+.bio_pria .spn1 {
+    position: absolute;
+    margin-left:58px; 
     font-size: 12px; 
     color: rgb(94, 94, 94);
     font-weight: bold;
 }
 
-.pengantin_pria .spn2 {
-   
+.bio_pria .spn2 {
+    position: absolute;
+    margin-left:-79px; 
     font-size: 12px; 
     color: rgb(94, 94, 94);
     font-weight: bold; 
@@ -472,3 +470,88 @@ html, body{
     }
 }
 
+@media only screen and (max-width: 1080px) {
+    .bio_wanita h3 {
+        text-align: left;
+        padding-right: 40px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: 300px;
+        padding-left: 40px;
+    }
+
+    .bio_pria h3 {
+        text-align: right;
+        padding-right: 35px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: -30px;
+    }
+
+    .ig_pria a{
+        height: 30px; 
+        width: 120px;
+        border-color: #5e5e5e; 
+        margin-top:275px;
+        margin-left:199px; 
+        background-color: #5e5e5e;
+        font-size: 12px; 
+        font-weight: 500; 
+    }
+
+    .nama_pengantin_pria h2 {
+        transform-origin: 0 0;
+        transform: rotate(272deg);
+        text-orientation: mixed;
+        margin-top: 400px;
+        color: #ffffff;
+        height: 100%;
+        width: 200%;
+        font-weight: bold;
+        margin-left:25px;
+        font-size: 50px;
+        font-family: "Analogue", Sans-serif;
+    }
+
+    .nama_pengantin_wanita h2 {
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        text-orientation: mixed;
+        margin-top: -600px;
+        color: #ffffff;
+        width: 200%;
+        font-weight: bold;
+        margin-left: 266px;
+        font-size: 50px;
+        font-family: "Analogue", Sans-serif;
+    }
+
+    .bio_wanita h3 {
+        text-align: left;
+        padding-right: 30px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: 530px;
+        padding-left: 40px;
+    }
+    
+    .bio_pria .spn1 {
+    position: absolute;
+    margin-left:70px; 
+    font-size: 12px; 
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+}
+
+.bio_pria .spn2 {
+    position: absolute;
+    margin-left:-65px; 
+    font-size: 12px; 
+    color: rgb(94, 94, 94);
+    font-weight: bold; 
+}
+
+}
