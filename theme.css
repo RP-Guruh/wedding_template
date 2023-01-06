@@ -16,6 +16,9 @@ html, body{
     height: 100vh;
     text-align: center;
 }
+
+
+
 .header{
     overflow-y: hidden;
     background-image: url(./img/hero.jpeg);
@@ -199,7 +202,7 @@ html, body{
 
 .bg_list_pengantin {
     background-image: linear-gradient(to bottom, #dbe1e1, #e2e6e8, #e9ecee, #f0f1f3, #f7f7f8, #f7f7f8, #f7f7f8, #f7f7f8, #f0f1f3, #e9ecee, #e2e6e8, #dbe1e1);
-    height: 250%;
+    
 }
 
 /* ANIMASI BG CARD */
@@ -531,6 +534,10 @@ html, body{
     margin-bottom: 20px; 
     margin-top: -40px;
    
+}
+
+.bg-card {
+    height: 10px;
 }
 
 @media only screen and (max-width: 600px) {
