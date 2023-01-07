@@ -579,14 +579,41 @@ html, body{
     line-height: 0;
 }
 
+
+
 .col-akad h1 {
     color: white;    
     transform-origin: 0 0;
     transform: rotate(270deg);
     text-orientation: mixed;
     font-weight: bold;
-   
-    font-family: "Analogue", Sans-serif;
+    width: 200px;
+    margin-top: 300px;
+    padding-top: 0px;
+}
+
+.col-tgl-akad {
+    padding: 32px 16px 16px 24px;
+}
+
+.col-tgl-akad h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    
+}
+
+.col-tgl-akad span {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    font-family: "Poppins", Sans-serif; 
+    letter-spacing: 2px;
+    float: left;
+}
+
+.col-bulan-akad {
+    padding: 32px 16px 16px 24px;
 }
 
 .divider_wedding {
@@ -596,6 +623,13 @@ html, body{
   margin-left: 200px;
   border-top: 2px solid gray;
   
+}
+
+.divider-tgl-akad {
+    border: 4;
+    border-color: black;
+    margin-left: 30px;
+    margin-top: -10px;
 }
 
 .akad_nikah .card {
