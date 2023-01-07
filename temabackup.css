@@ -7,13 +7,8 @@
 @font-face {
     font-family: 'Analogue';
     font-family: 'Poppins';
-    font-family: 'Creattion Demo';
-  
-    
     src: url('fonts/Analogue.ttf');
     src: url('fonts/Poppins-Bold.ttf');
-    src: url('icons/webfonts/Creattion Demo.TTF');
-  
 }
 
 html, body{   
@@ -21,10 +16,6 @@ html, body{
     height: 100vh;
     text-align: center;
 }
-
-
-
-
 .header{
     overflow-y: hidden;
     background-image: url(./img/hero.jpeg);
@@ -36,8 +27,6 @@ html, body{
     margin: 0;
     padding-top: 55vh;
 }
-
-
 .heading {
    
     color: #ffffff;
@@ -206,72 +195,6 @@ html, body{
     width: 100%;    
 }
 
-.bg_list_pengantin {
-    background-image: linear-gradient(to bottom, #dbe1e1, #e2e6e8, #e9ecee, #f0f1f3, #f7f7f8, #f7f7f8, #f7f7f8, #f7f7f8, #f0f1f3, #e9ecee, #e2e6e8, #dbe1e1);
-    height: 1700px;  
-}
-
-
-/* ANIMASI BG CARD */
-.slideshow_card { 
-  
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 0;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-   
-}
-
-.slideshow_card li { 
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    opacity: 0.1;
-    z-index: 0;
-    animation: imageAnimationCard 50s linear infinite; 
-}
-
-.slideshow_card li:nth-child(1) { 
-    background-image: url(./img/hero.jpeg);
-    animation-delay: 1s;
-}
-.slideshow_card li:nth-child(2) { 
-    background-image: url(./img/slide2.jpg);
-    animation-delay: 10s; 
-}
-@keyframes imageAnimationCard { 
-    0% { 
-        
-       
-        animation-timing-function: ease;
-    }
-    10% {
-        opacity: 0.1;
-       
-        animation-timing-function: ease;
-    }
-    20% {
-       
-        opacity: 0.1;
-    }
-    30% {
-       
-        opacity: 0;
-    }
-}
-
-/* Older browser support - .no-cssanimations class added by modernizr */
-.no-cssanimations .slideshow_card li {
-    opacity: 1;
-}
 /* ANIMASI */
 #landing-header {
     z-index: 1;
@@ -294,7 +217,7 @@ html, body{
 
 .slideshow li { 
     width: 100%;
-    height: 100%;
+    height: 120%;
     position: absolute;
     top: 100%;
     left: 0;
@@ -411,43 +334,39 @@ html, body{
 .pengantin_wanita {
     margin-left: -27px;
     width: 295px;
-
     margin-top: 750px;
     height: 340px; 
     background-color: rgba(51, 51, 51, 0.1);
 }
 
-.pengantin_wanita img {
-    float: left;  
-}
-
-.pengantin_pria h2 {
+.nama_pengantin_pria h2 {
     transform-origin: 0 0;
-    transform: rotate(270deg);
+    transform: rotate(272deg);
     text-orientation: mixed;
+    margin-top: 650px;
+    color: #ffffff;
+    height: 100%;
+    width: 200%;
     font-weight: bold;
+    margin-left: 10px;
     font-size: 50px;
     font-family: "Analogue", Sans-serif;
-    color: white;
 }
-
-
 
 .nama_pengantin_wanita {
     height: 130%;
     background-image: linear-gradient(to bottom, #ffffff, #eaeaea, #d5d5d5, #c0c0c0, #acacac);background-image: linear-gradient(to bottom, #ffffff, #faf8fa, #f7f0f4, #f4e8ec, #f2e1e1);background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f6f5f5, #f2eff0, #eeeaea);
 }
 
-.pengantin_wanita h2 {
+.nama_pengantin_wanita h2 {
     transform-origin: 0 0;
     transform: rotate(90deg);
     text-orientation: mixed;
-    
-    margin-left: 273px;
-    color: white;
-    width: 90%;
+    margin-top: -320px;
+    color: #ffffff;
+    width: 200%;
     font-weight: bold;
-   
+    margin-left: 266px;
     font-size: 50px;
     font-family: "Analogue", Sans-serif;
 }
@@ -456,33 +375,33 @@ html, body{
    width: 200%;
 }
 
-
-
-.pengantin_pria h3 {
+.bio_pria h3 {
+    text-align: right;
+    padding-right: 40px;
     color: rgb(94, 94, 94);
     font-family: "Analogue", Sans-serif;
     line-height: 32px;
-    padding-right: 27px;
+    margin-top: -40px;
 }
 
-.pengantin_wanita h3 {
-    padding-top: 300px;
-    padding-right: 9px;
+.bio_wanita h3 {
+    text-align: left;
+    padding-right: 40px;
     color: rgb(94, 94, 94);
     font-family: "Analogue", Sans-serif;
     line-height: 32px;
-   
+    margin-top: 530px;
+    padding-left: 40px;
 }
 
-.pengantin_wanita .spn1 {
-    margin-top: 90px;
-    padding-right: 90px;
+.bio_wanita .spn1 {
+    padding-left: 40px;
     font-size: 12px; 
     color: rgb(94, 94, 94);
     font-weight: bold;
 }
 
-.pengantin_wanita .spn2 {
+.bio_wanita .spn2 {
     padding-left: 40px;
     font-size: 12px; 
     color: rgb(94, 94, 94);
@@ -490,19 +409,13 @@ html, body{
 }
 
 .ig_wanita {
-    padding-right: 55px;
-    margin-top: -20px;
+    padding-left: 40px;
 }
 
-.ig_pria {
-    padding-top: 5px;
-    padding-left: 100px;
-}
-
-.pengantin_pria a  {
-    height: 30px; 
-    width: 120px;
+.ig_pria a{
+    height: 30px; width: 120px;
     border-color: #5e5e5e; 
+    margin-top:400px; margin-left:180px; 
     background-color: #5e5e5e;
     font-size: 12px; 
     font-weight: 500; 
@@ -518,15 +431,17 @@ html, body{
     font-weight: 500;
 }
 
-.pengantin_pria .spn1 {
-    padding-left: 125px;
+.bio_pria .spn1 {
+    position: absolute;
+    margin-left:58px; 
     font-size: 12px; 
     color: rgb(94, 94, 94);
     font-weight: bold;
 }
 
-.pengantin_pria .spn2 {
-   
+.bio_pria .spn2 {
+    position: absolute;
+    margin-left:-79px; 
     font-size: 12px; 
     color: rgb(94, 94, 94);
     font-weight: bold; 
@@ -549,58 +464,94 @@ html, body{
    
 }
 
-.bg-card {
-    height: 10px;
-}
-
-.wedding_event {
-    padding: 80px 32px 128px;
-}
-
-.akad_nikah {
-     padding: 80px 32px 128px;
-}
-
-.car {
-    border-top-right-radius: 70%;
-}
-.wedding {
-    padding-right: 200px;
-    font-size: 30px;
-}
-
-.event {
-    font-family: "Creattion Demo";
-    font-size: 50px;
-    float: left;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 0;
-}
-
-.divider_wedding {
-  margin-top: -130px;
-  margin-bottom: 1rem;
-  border: 4;
-  margin-left: 200px;
-  border-top: 2px solid gray;
-  
-}
-
-.akad_nikah .card {
-    border-top-right-radius:60%;
-}
-
-.akad_nikah .card .slider img{
-    border-top-right-radius:60%;
-    height: 400px;
-}
-
-
-
 @media only screen and (max-width: 600px) {
     .heading {
         font-size: 42px;
     }
 }
 
+@media only screen and (max-width: 1080px) {
+    .bio_wanita h3 {
+        text-align: left;
+        padding-right: 40px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: 300px;
+        padding-left: 40px;
+    }
+
+    .bio_pria h3 {
+        text-align: right;
+        padding-right: 35px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: -30px;
+    }
+
+    .ig_pria a{
+        height: 30px; 
+        width: 120px;
+        border-color: #5e5e5e; 
+        margin-top:275px;
+        margin-left:199px; 
+        background-color: #5e5e5e;
+        font-size: 12px; 
+        font-weight: 500; 
+    }
+
+    .nama_pengantin_pria h2 {
+        transform-origin: 0 0;
+        transform: rotate(272deg);
+        text-orientation: mixed;
+        margin-top: 400px;
+        color: #ffffff;
+        height: 100%;
+        width: 200%;
+        font-weight: bold;
+        margin-left:25px;
+        font-size: 50px;
+        font-family: "Analogue", Sans-serif;
+    }
+
+    .nama_pengantin_wanita h2 {
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        text-orientation: mixed;
+        margin-top: -600px;
+        color: #ffffff;
+        width: 200%;
+        font-weight: bold;
+        margin-left: 266px;
+        font-size: 50px;
+        font-family: "Analogue", Sans-serif;
+    }
+
+    .bio_wanita h3 {
+        text-align: left;
+        padding-right: 30px;
+        color: rgb(94, 94, 94);
+        font-family: "Analogue", Sans-serif;
+        line-height: 32px;
+        margin-top: 530px;
+        padding-left: 40px;
+    }
+    
+    .bio_pria .spn1 {
+    position: absolute;
+    margin-left:70px; 
+    font-size: 12px; 
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+}
+
+.bio_pria .spn2 {
+    position: absolute;
+    margin-left:-65px; 
+    font-size: 12px; 
+    color: rgb(94, 94, 94);
+    font-weight: bold; 
+}
+
+}
