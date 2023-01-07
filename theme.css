@@ -228,7 +228,7 @@ html, body{
 
 .slideshow_card li { 
     width: 100%;
-    height: 100%;
+    height: 250%;
     position: absolute;
     left: 0;
     background-size: cover;
@@ -562,6 +562,11 @@ html, body{
      padding: 80px 32px 128px;
 }
 
+.resepsi_nikah {
+    padding: 80px 32px 128px;
+    margin-top: -150px;
+}
+
 .car {
     border-top-right-radius: 70%;
 }
@@ -579,7 +584,17 @@ html, body{
     line-height: 0;
 }
 
-
+.col-resepsi h1 {
+    color: white;    
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    text-orientation: mixed;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 100px;
+    padding-top: 0px;
+    margin-left: 42px;
+}
 
 .col-akad h1 {
     color: white;    
@@ -636,12 +651,122 @@ html, body{
     border-top-right-radius:40%;
 }
 
+.resepsi_nikah .card {
+    border-top-left-radius:40%;
+}
+
 .akad_nikah .card .slider img{
     border-top-right-radius:50%;
     height: 250px;
 }
 
+.resepsi_nikah .card .slider img{
+    border-top-left-radius:50%;
+    height: 250px;
+}
 
+.col-jam-akad span {
+    float: left;   
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: bold; 
+}
+.col-jam-akad > span > i {
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+
+.akad_nikah > .card {
+    width: 29rem;
+}
+
+.akad_nikah > .card > .card-body > .container > .row {
+    margin-top: -10px; margin-left: -25px; width: 290px;
+}
+
+.resepsi_nikah > .card {
+    width: 30.2rem;
+}
+
+.resepsi_nikah > .card > .card-body {
+    padding: 0px;
+   
+}
+
+.resepsi_nikah > .card > .card-body > .container > .row {
+    margin-top: 1px; margin-left: -28x; width: 300px;
+}
+
+.col-jam-resepsi span {
+    float: left;   
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: bold; 
+}
+.col-jam-resepsi > span > i {
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+
+.col-lokasi-acara span {
+    float: left;
+    margin-left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.col-alamat-akad .alamat1 {
+    float: left;
+    padding-top: 15px;
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+    line-height: 18px;
+   
+}
+
+.col-alamat-akad .alamat2 {
+    float: left;
+    padding-top: 5px;
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    line-height: 18px;
+}
+
+.col-link-maps-akad a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    fill: #5E5E5E;
+    color: #5E5E5E;
+    background-color: #5E5E5E00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #5E5E5E;
+    border-radius: 0px 0px 0px 0px;
+    padding: 8px 15px 8px 15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -20px;
+}
 
 @media only screen and (max-width: 600px) {
     .heading {
