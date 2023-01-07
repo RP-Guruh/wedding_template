@@ -429,6 +429,7 @@ html, body{
     font-size: 50px;
     font-family: "Analogue", Sans-serif;
     color: white;
+    margin-top: -10px;
 }
 
 
@@ -578,6 +579,16 @@ html, body{
     line-height: 0;
 }
 
+.col-akad h1 {
+    color: white;    
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    text-orientation: mixed;
+    font-weight: bold;
+   
+    font-family: "Analogue", Sans-serif;
+}
+
 .divider_wedding {
   margin-top: -130px;
   margin-bottom: 1rem;
@@ -588,12 +599,12 @@ html, body{
 }
 
 .akad_nikah .card {
-    border-top-right-radius:60%;
+    border-top-right-radius:40%;
 }
 
 .akad_nikah .card .slider img{
-    border-top-right-radius:60%;
-    height: 400px;
+    border-top-right-radius:50%;
+    height: 250px;
 }
 
 
