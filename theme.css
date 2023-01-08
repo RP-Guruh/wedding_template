@@ -634,7 +634,7 @@ body {
 }
 
 .galerry1 {
-    padding-left: 200px;
+    float: right;
     font-size: 40px;
   }
 
@@ -738,7 +738,7 @@ body {
 }
 
 .divider_gallery {
-    margin-top: -20px;
+    margin-top: -45px;
     margin-bottom: 1rem;
     margin-right: 170px;
     border-top: 2px solid;
@@ -816,6 +816,92 @@ body {
     width: 310px;
     height: 217px;
     transition: 0.5s all ease-in-out;
+}
+
+.wedding_gift > .container > .row > .wdgift h1 {
+  font-style: italic;
+}
+
+.wedding_gift > .container > .row > .notedgift p {
+    color: #5E5E5E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5em;
+    padding: 32px 32px 96px;
+}
+
+.wedding_gift > .container > .row > .btngift {
+  margin-top: -70px;
+}
+
+.wedding_gift > .container > .panelGift1  {
+  width: 75%;
+  margin: auto;
+
+}
+
+.wedding_gift > .container > .panelGift1 > .col-panel1 > .card {
+  border: none;
+  background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
+}
+
+
+.namabank1 {
+  color: #5E5E5E;
+  font-family: "Poppins", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+#paste1 {
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  background-color: #5E5E5E;
+  border-radius: 0px 0px 0px 0px;
+  padding: 8px 10px 8px 10px;
+  margin-top: 10px;
+}
+
+.an1 {
+  color: #5E5E5E;
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.norek1 {
+  color: #5E5E5E;
+  font-family: "Poppins", Sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.5em;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+}
+
+.wedding_gift > .container > .row > .btngift a {
+  font-family: "Poppins", Sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  fill: #FFFFFF;
+  color: #FFFFFF;
+  background-color: #5E5E5E;
+  border-radius: 0px 0px 0px 0px;
+  padding: 8px 20px 8px 20px;
 }
 
 
