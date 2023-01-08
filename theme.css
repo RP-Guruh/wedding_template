@@ -839,13 +839,25 @@ body {
 .wedding_gift > .container > .panelGift1  {
   width: 75%;
   margin: auto;
-
+  display: none;
 }
 
 .wedding_gift > .container > .panelGift1 > .col-panel1 > .card {
   border: none;
   background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
 }
+
+.wedding_gift > .container > .panelGift2  {
+  width: 75%;
+  margin: 10px auto;
+  display: none;
+}
+
+.wedding_gift > .container > .panelGift2 > .col-panel1 > .card {
+  border: none;
+  background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
+}
+
 
 
 .namabank1 {
@@ -859,7 +871,7 @@ body {
   margin-top: 10px;
 }
 
-#paste1 {
+#paste1, #paste2 {
   font-family: "Poppins", Sans-serif;
   font-size: 12px;
   font-weight: 400;
@@ -881,7 +893,7 @@ body {
   margin-top: 10px;
 }
 
-.norek1 {
+.norek1, .norek2 {
   color: #5E5E5E;
   font-family: "Poppins", Sans-serif;
   font-size: 13px;
