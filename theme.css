@@ -206,6 +206,12 @@ html, body{
     width: 100%;    
 }
 
+.section-landing{
+    margin: 0 auto;
+    height: 100%; 
+    width: 100%;    
+}
+
 .bg_list_pengantin {
     background-image: linear-gradient(to bottom, #dbe1e1, #e2e6e8, #e9ecee, #f0f1f3, #f7f7f8, #f7f7f8, #f7f7f8, #f7f7f8, #f0f1f3, #e9ecee, #e2e6e8, #dbe1e1);
     height: 1700px;  
@@ -294,9 +300,9 @@ html, body{
 
 .slideshow li { 
     width: 100%;
-    height: 100%;
+    height: 108%;
     position: absolute;
-    top: 100%;
+    top: 107.2%;
     left: 0;
     background-size: cover;
     background-position: 50% 50%;
@@ -409,8 +415,8 @@ html, body{
 }
 
 .pengantin_wanita {
-    margin-left: -27px;
-    width: 295px;
+   
+    width: 275px;
 
     margin-top: 750px;
     height: 340px; 
@@ -467,8 +473,8 @@ html, body{
 }
 
 .pengantin_wanita h3 {
-    padding-top: 300px;
-    padding-right: 9px;
+    padding-top: 280px;
+    
     color: rgb(94, 94, 94);
     font-family: "Analogue", Sans-serif;
     line-height: 32px;
@@ -547,7 +553,10 @@ html, body{
    
     margin-bottom: 20px; 
     margin-top: -40px;
-   
+    box-shadow: 10px 10px rgba(51, 51, 51, 0.1);
+    -moz-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -webkit-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -khtml-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
 }
 
 .bg-card {
@@ -582,6 +591,11 @@ html, body{
     font-style: italic;
     font-weight: normal;
     line-height: 0;
+}
+
+.resepsi_nikah > .card > .card-body .col-resepsi {
+    margin-top: -1px;
+   
 }
 
 .col-resepsi h1 {
@@ -627,7 +641,31 @@ html, body{
     float: left;
 }
 
+.col-tgl-resepsi {
+    padding: 32px 16px 16px 24px;
+}
+
+.col-tgl-resepsi h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    
+}
+
+.col-tgl-resepsi span {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    font-family: "Poppins", Sans-serif; 
+    letter-spacing: 2px;
+    float: left;
+}
+
 .col-bulan-akad {
+    padding: 32px 16px 16px 24px;
+}
+
+.col-bulan-resepsi {
     padding: 32px 16px 16px 24px;
 }
 
@@ -647,12 +685,19 @@ html, body{
     margin-top: -10px;
 }
 
+.divider-tgl-resepsi {
+    border: 4;
+    border-color: black;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
 .akad_nikah .card {
-    border-top-right-radius:40%;
+    border-top-right-radius:50%;
 }
 
 .resepsi_nikah .card {
-    border-top-left-radius:40%;
+    border-top-left-radius:50%;
 }
 
 .akad_nikah .card .slider img{
@@ -681,13 +726,40 @@ html, body{
   
 }
 
+.col-jam-resepsi span {
+    float: left;   
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: bold; 
+}
+.col-jam-resepsi > span > i {
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-right: 20px;
+  
+}
+
 .akad_nikah > .card {
     width: 29rem;
 }
 
 .akad_nikah > .card > .card-body > .container > .row {
-    margin-top: -10px; margin-left: -25px; width: 290px;
+    margin-top: -10px; 
+    margin-left: -25px; 
+    width: 290px;
+    height: 430px; 
 }
+
+.akad_nikah > .card > .card-body > .container {
+    height: 410px;
+}
+
+
+
+
 
 .resepsi_nikah > .card {
     width: 30.2rem;
@@ -730,7 +802,7 @@ html, body{
 .col-alamat-akad .alamat1 {
     float: left;
     padding-top: 15px;
-    margin-left: 20px;
+    margin-left: 19px;
     text-align: justify;
     font-size: 12px;
     font-weight: bold;
@@ -765,7 +837,25 @@ html, body{
     padding: 8px 15px 8px 15px;
     float: left;
     margin-left: 20px;
-    margin-top: -20px;
+    margin-top: -12px;
+}
+
+.col-link-maps-resepsi a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    fill: #5E5E5E;
+    color: #5E5E5E;
+    background-color: #5E5E5E00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #5E5E5E;
+    border-radius: 0px 0px 0px 0px;
+    padding: 8px 15px 8px 15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -9px;
 }
 
 @media only screen and (max-width: 600px) {
