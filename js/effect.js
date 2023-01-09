@@ -1,8 +1,16 @@
 $(document).ready(function(){
     $("#flipGift").click(function(){
-      $(".panelGift1").slideDown("1000");
-      $(".panelGift2").slideDown("1000");
+      $(".panelGift1").slideToggle("1000");
+      $(".panelGift2").slideToggle("1000");
     });
+
+    $("#bukaUndangan").click(function(){
+      $(".section-landing").slideDown("2000");
+      $(".bg_list_pengantin").slideDown("2000");
+      $(".bg-card").slideDown("2000");
+      $("#bukaUndangan").css("color", "white");
+    });
+
 
     $("#paste1").click(function() {
       var temp = $("<input>");

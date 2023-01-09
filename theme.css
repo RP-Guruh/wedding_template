@@ -212,6 +212,7 @@ body {
   margin: 0 auto;
   height: 100%;
   width: 100%;
+  display: none;
 }
 
 .bg_list_pengantin {
@@ -231,6 +232,7 @@ body {
     #dbe1e1
   );
   height: 1700px;
+  display: none;
 }
 
 /* ANIMASI BG CARD */
@@ -377,6 +379,24 @@ body {
   hyphens: manual;
   -webkit-font-smoothing: antialiased;
 }
+
+.img-tree2 {
+    box-sizing: border-box;
+    display: inline-block;
+    height: 289.281px;
+    max-width: 100%;
+    overflow-y: clip;
+    overflow-x: clip;
+    width: 375px;
+    box-shadow: none;
+    color: rgb(51, 51, 51);
+    aspect-ratio: auto 700 / 540;
+    opacity: 0.1;
+    overflow-clip-margin: content-box;
+    hyphens: manual;
+    -webkit-font-smoothing: antialiased;
+    margin-top: -70px;
+  }
 
 .inisial_nama h2 {
   font-size: 64px;
@@ -604,6 +624,7 @@ body {
 
 .bg-card {
   height: 10px;
+  display: none;
 }
 
 .wedding_event {
@@ -648,13 +669,69 @@ body {
   }
 
 .event {
-  font-family: "Creattion Demo";
-  font-size: 50px;
-  float: left;
-  font-style: italic;
-  font-weight: normal;
-  line-height: 0;
+    font-family: "Creattion Demo";
+    font-size: 50px;
+    float: left;
+    font-style: italic;
+    font-weight: normal;
+    line-height: 0;
+    margin-top: 30px;
+    margin-left: -20px;
 }
+
+/* .paralaximage > .container-fluid > .row > .col_img > img {
+    width: 360px;
+    height: 150px;
+    padding: 0px;
+} */
+
+.paralaximage {
+    background-image: url(./img/foto11.jpg);
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: 100% 160px;
+    margin: 0;
+    padding: 157px;
+    background-position: 0 90px;
+}
+
+.paralaximage > .rsvp {
+    
+    color: #ffffff;
+    display: block;
+    font-family: "Analogue";
+    font-size: 40px;
+    font-weight: normal;
+    text-shadow: 0 0 10px #000;
+    text-size-adjust: 100%;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    float: left;
+    margin-left: -40px;
+    margin-top: -20px;
+    font-style: italic;
+}
+
+.paralaximage > .wishes {
+    
+    color: #ffffff;
+    display: block;
+    font-family: "Creattion Demo";
+    font-size: 20px;
+    font-weight: normal;
+    text-shadow: 0 0 10px #000;
+    text-size-adjust: 100%;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    float: left;
+    margin-left: 10px;
+    margin-top: -20px;
+    font-style: italic;
+}
+
+
 
 .resepsi_nikah > .card > .card-body .col-resepsi {
   margin-top: -1px;
@@ -730,10 +807,10 @@ body {
 }
 
 .divider_wedding {
-  margin-top: -130px;
+  margin-top: -170px;
   margin-bottom: 1rem;
   border: 4;
-  margin-left: 200px;
+  margin-left: 210px;
   border-top: 2px solid gray;
 }
 
@@ -1089,6 +1166,8 @@ body {
   margin-left: 20px;
   margin-top: -9px;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   .heading {
