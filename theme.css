@@ -398,6 +398,10 @@
       margin-top: -70px;
     }
   
+  .kehadiran {
+    margin: auto;
+  }
+
   .kehadiran > .container > .row  > .formKehadiran > form {
     margin-top: -230px;
   }
@@ -410,7 +414,7 @@
       background: #fbfbfb !important;
       width: 85%;
       
-      margin-left: 30px;
+     
   }
   
   .kehadiran > .container > .row  > .formKehadiran > form > .inpText2 {
@@ -422,7 +426,7 @@
     width: 100%;
     margin-top: 10px;
     width: 85%;
-    margin-left: 30px;
+   
   }
   
   .kehadiran > .container > .row  > .formKehadiran > form > .pilihKehadiran {
@@ -434,7 +438,7 @@
     width: 100%;
     margin-top: 10px;
     width: 85%;
-    margin-left: 30px;
+    
     font-weight: bold;
     opacity: 0.5;
     color: rgb(51, 51, 51);
@@ -452,14 +456,128 @@
     width: 100%;
     margin-top: 10px;
     width: 85%;
-    margin-left: 30px;
+   
   }
   
+  .protokolKesehatan {
+    margin-top: 150px;
+  }
+
+  .protokolKesehatan > .container > .row > .protokol > span {
+    color: #5E5E5E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    
+}
+
+.protokolKesehatan > .container > .row > .protokol  {
+    margin-bottom:35px;
+}
+
+.protokolKesehatan > .container > .row > .himbauan > span {
+    color: #5E5E5E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+.protokolKesehatan > .container > .row > .himbauan  {
+    margin-bottom:35px;
+}
+
+.protokolKesehatan > .container > .row > .icon1 > .row > .sanitizer-icon {
+    width: 50px;
+    background-color: #EDEDED;
+    /* background-size: 100px 100px; */
+    margin: auto;
+}  
+
+.protokolKesehatan > .container > .row > .icon1 > .row > .sanitizer-icon > img {
+    height: 35px;
+     width: 22.6px;
+}  
+
+.protokolKesehatan > .container > .row > .icon1 > .row > .keticon1 {
+    width: 1000px;
+}  
+
+
+.protokolKesehatan > .container > .row > .icon1 > .row > .keticon1 > span {
+    color: #5E5E5E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5em;
+}  
+
+
+
+.protokolKesehatan > .container > .row > .icon2 > .row > .mask-icon {
+    width: 50px;
+    background-color: #EDEDED;
+    /* background-size: 100px 100px; */
+    margin: auto;
+}  
+
+.protokolKesehatan > .container > .row > .icon2 > .row > .mask-icon > img {
+   height: 35px;
+    width: 22.6px;
+}  
+
+.protokolKesehatan > .container > .row > .icon2 > .row > .keticon2 {
+   width: 1000px;
+}  
+
+
+.protokolKesehatan > .container > .row > .icon2 > .row > .keticon2 > span {
+   color: #5E5E5E;
+   font-family: "Poppins", Sans-serif;
+   font-size: 11px;
+   font-weight: normal;
+   font-style: italic;
+   line-height: 1.5em;
+}  
+
+.protokolKesehatan > .container > .row > .icon3 > .row > .people-icon {
+    width: 50px;
+    background-color: #EDEDED;
+    /* background-size: 100px 100px; */
+    margin: auto;
+}  
+
+.protokolKesehatan > .container > .row > .icon3 > .row > .people-icon > img {
+   height: 35px;
+    width: 22.6px;
+}  
+
+.protokolKesehatan > .container > .row > .icon3 > .row > .keticon3 {
+   width: 1000px;
+}  
+
+
+.protokolKesehatan > .container > .row > .icon3 > .row > .keticon3 > span {
+   color: #5E5E5E;
+   font-family: "Poppins", Sans-serif;
+   font-size: 11px;
+   font-weight: normal;
+   font-style: italic;
+   line-height: 1.5em;
+}  
+
+
+
   .kehadiran > .container > .row  > .formKehadiran > form > .jumlahTamu {
     border: 1px solid rgb(226, 221, 221);
-    margin-top: 59px;
+    margin: 30px auto;
     width: 85%;
-    margin-left: 40px;
+   
   }
   
   .kehadiran > .container > .row  > .formKehadiran > form > .jumlahTamu > .jmltamu {
@@ -1001,7 +1119,12 @@
     margin-top: -70px;
   }
   
-  .kehadiran > .container > .row  > .formKehadiran > form > #kirimPesan {
+  .kehadiran > .container > .row  > .formKehadiran > form > .container > .row > .boxPesan {
+    padding-top: 20px;
+    margin:auto;
+  }
+
+  .kehadiran > .container > .row  > .formKehadiran > form > .container > .row > .boxPesan #kirimPesan {
     font-size: 14px !important;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -1010,7 +1133,7 @@
     background: #5E5E5E;
     border-radius: 0px;
     border: none;
-    margin-top: 15px;
+
   }
   
   .wedding_gift > .container > .panelGift1  {
