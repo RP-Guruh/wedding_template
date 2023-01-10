@@ -1,386 +1,369 @@
 * {
-  font-family: "Quicksand", sans-serif;
-  font-size: 16px;
-  color: #222;
-}
-
-@font-face {
-  font-family: "Analogue";
-  font-family: "Poppins";
-  font-family: "Creattion Demo";
-
-  src: url("fonts/Analogue/Analogue.otf");
-  src: url("fonts/Poppins/Poppins-Bold.ttf");
-  src: url("icons/webfonts/Creattion Demo.TTF");
-}
-
-
-html,
-body {
-  margin: 0;
-  height: 100vh;
-  text-align: center;
-}
-
-.header {
-  overflow-y: hidden;
-  background-image: url(./img/hero.jpeg);
-  background-repeat: no-repeat;
-  background-position: 50% 60%;
-  background-attachment: scroll;
-  background-size: cover;
-  height: 100%;
-  margin: 0;
-  padding-top: 55vh;
-}
-
-.heading {
-  color: #ffffff;
-  display: block;
-  font-family: "Analogue";
-  font-size: 40px;
-  font-weight: normal;
-  text-shadow: 0 0 10px #000;
-  text-size-adjust: 100%;
-  letter-spacing: 1px;
-  -webkit-font-smoothing: antialiased;
-  padding-bottom: 20px;
-}
-.heading-subtext {
-  color: #fff;
-  display: block;
-  font-family: "Poppins", Sans-serif;
-  font-size: 0.6em;
-}
-
-.heading-subtext-2 {
-  padding-bottom: 28px;
-  color: #ffffff;
-  font-family: "Poppins", Sans-serif;
-  display: block;
-  font-family: "Poppins", Sans-serif;
-  font-size: 18px;
-  line-height: 18px;
-}
-
-.heading-curve {
-  color: #ffffff;
-  direction: ltr;
-  font-family: "Poppins", sans-serif;
-  font-size: 25px;
-  font-weight: 400;
-  height: auto;
-  hyphens: manual;
-  letter-spacing: 3px;
-  line-height: 28.75px;
-  text-size-adjust: 100%;
-  white-space: nowrap;
-  word-spacing: 0px;
-}
-
-.heading-subtext-3 {
-  color: #ffffff;
-  display: block;
-  font-family: "Poppins", Sans-serif;
-  font-size: 14px;
-  letter-spacing: 2px;
-  line-height: 14px;
-  text-size-adjust: 100%;
-  padding-bottom: 15px;
-}
-
-.heading-subtext-4 {
-  color: #ffffff;
-  display: block;
-  font-family: "Poppins";
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 2px;
-  line-height: 14px;
-  text-size-adjust: 100%;
-  padding-bottom: 15px;
-  font-style: italic;
-  padding-top: 155px;
-}
-.heading-subtext-5 {
-  color: #ffffff;
-  display: block;
-
-  font-weight: bold;
-  font-size: 11px;
-  letter-spacing: 2px;
-  line-height: 14px;
-  text-size-adjust: 100%;
-  padding-bottom: 15px;
-}
-
-.countdown {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.times {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.times li {
-  padding: 16px 16px;
-  display: flex;
-  flex-direction: column;
-  color: white;
-}
-
-.times li span {
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-}
-
-.btn-header {
-  border-radius: 0%;
-  box-sizing: border-box;
-  display: inline-block;
-  height: 39px;
-  width: 170.156px;
-  font-family: "Poppins", Sans-serif;
-  font-size: 15px;
-  line-height: 15px;
-  text-align: center;
-  text-size-adjust: 100%;
-  color: rgb(255, 255, 255);
-  box-shadow: none;
-  cursor: pointer;
-  transition-duration: 0.3s;
-  transition-property: transform;
-  text-decoration: none;
-  margin-top: 15px;
-  animation-name: btn-anim;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-}
-
-@keyframes btn-anim {
-  from {
-    margin-top: 50px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    color: #222;
   }
-  to {
+  
+  @font-face {
+    font-family: "Analogue";
+    font-family: "Poppins";
+    font-family: "Creattion Demo";
+  
+    src: url("fonts/Analogue/Analogue.otf");
+    src: url("fonts/Poppins/Poppins-Bold.ttf");
+    src: url("icons/webfonts/Creattion Demo.TTF");
+  }
+  
+  
+  html,
+  body {
+    margin: 0;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .header {
+    overflow-y: hidden;
+    background-image: url(./img/hero.jpeg);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    padding-top: 55vh;
+  }
+  
+  .heading {
+    color: #ffffff;
+    display: block;
+    font-family: "Analogue";
+    font-size: 40px;
+    font-weight: normal;
+    text-shadow: 0 0 10px #000;
+    text-size-adjust: 100%;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 20px;
+  }
+  .heading-subtext {
+    color: #fff;
+    display: block;
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.6em;
+  }
+  
+  .heading-subtext-2 {
+    padding-bottom: 28px;
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    display: block;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+  }
+  
+  .heading-curve {
+    color: #ffffff;
+    direction: ltr;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    height: auto;
+    hyphens: manual;
+    letter-spacing: 3px;
+    line-height: 28.75px;
+    text-size-adjust: 100%;
+    white-space: nowrap;
+    word-spacing: 0px;
+  }
+  
+  .heading-subtext-3 {
+    color: #ffffff;
+    display: block;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    text-size-adjust: 100%;
+    padding-bottom: 15px;
+  }
+  
+  .heading-subtext-4 {
+    color: #ffffff;
+    display: block;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 14px;
+    text-size-adjust: 100%;
+    padding-bottom: 15px;
+    font-style: italic;
+    padding-top: 155px;
+  }
+  .heading-subtext-5 {
+    color: #ffffff;
+    display: block;
+  
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 2px;
+    line-height: 14px;
+    text-size-adjust: 100%;
+    padding-bottom: 15px;
+  }
+  
+  .countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-family: Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .times {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .times li {
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  
+  .times li span {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .btn-header {
+    border-radius: 0%;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 39px;
+    width: 170.156px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(255, 255, 255);
+    box-shadow: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    text-decoration: none;
     margin-top: 15px;
+    animation-name: btn-anim;
+    animation-duration: 2s;
+    animation-timing-function: linear;
   }
-}
-
-.fixed-button {
-  background: rgba(20, 20, 20, 0.5);
-  border-radius: 1em;
-  bottom: 1em;
-  color: white;
-  font-weight: bold;
-  padding: 1em;
-  position: fixed;
-  right: 1em;
-  text-decoration: none;
-  z-index: 9999;
-}
-.fixed-button::after {
-  content: "\25BE";
-  display: block;
-  font-size: 28px;
-  line-height: 0;
-  margin-bottom: 6px;
-  margin-top: 10px;
-  text-align: center;
-}
-.fixed-button:active,
-.fixed-button:hover {
-  background: rgba(20, 20, 20, 0.9);
-}
-.section {
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-}
-
-.section-landing {
-  margin: 0 auto;
-  height: 100%;
-  width: 100%;
-  display: none;
-}
-
-.bg_list_pengantin {
-  background-image: linear-gradient(
-    to bottom,
-    #dbe1e1,
-    #e2e6e8,
-    #e9ecee,
-    #f0f1f3,
-    #f7f7f8,
-    #f7f7f8,
-    #f7f7f8,
-    #f7f7f8,
-    #f0f1f3,
-    #e9ecee,
-    #e2e6e8,
-    #dbe1e1
-  );
-  height: 1700px;
-  display: none;
-}
-
-/* ANIMASI BG CARD */
-.slideshow_card {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.slideshow_card li {
-  width: 100%;
-  height: 270%;
-  position: absolute;
-  left: 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  opacity: 0.1;
-  z-index: 0;
-  animation: imageAnimationCard 50s linear infinite;
-}
-
-.slideshow_card li:nth-child(1) {
-  background-image: url(./img/hero.jpeg);
-  animation-delay: 1s;
-}
-.slideshow_card li:nth-child(2) {
-  background-image: url(./img/slide2.jpg);
-  animation-delay: 10s;
-}
-@keyframes imageAnimationCard {
-  0% {
-    animation-timing-function: ease;
+  
+  @keyframes btn-anim {
+    from {
+      margin-top: 50px;
+    }
+    to {
+      margin-top: 15px;
+    }
   }
-  10% {
+  
+  .fixed-button {
+    background: rgba(20, 20, 20, 0.5);
+    border-radius: 1em;
+    bottom: 1em;
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+    position: fixed;
+    right: 1em;
+    text-decoration: none;
+    z-index: 9999;
+  }
+  .fixed-button::after {
+    content: "\25BE";
+    display: block;
+    font-size: 28px;
+    line-height: 0;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .fixed-button:active,
+  .fixed-button:hover {
+    background: rgba(20, 20, 20, 0.9);
+  }
+  .section {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .section-landing {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    display: none;
+  }
+  
+  .bg_list_pengantin {
+    background-image: linear-gradient(
+      to bottom,
+      #dbe1e1,
+      #e2e6e8,
+      #e9ecee,
+      #f0f1f3,
+      #f7f7f8,
+      #f7f7f8,
+      #f7f7f8,
+      #f7f7f8,
+      #f0f1f3,
+      #e9ecee,
+      #e2e6e8,
+      #dbe1e1
+    );
+    height: 1700px;
+    display: none;
+  }
+  
+  /* ANIMASI BG CARD */
+  .slideshow_card {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slideshow_card li {
+    width: 100%;
+    height: 270%;
+    position: absolute;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
     opacity: 0.1;
-
-    animation-timing-function: ease;
+    z-index: 0;
+    animation: imageAnimationCard 50s linear infinite;
   }
-  20% {
-    opacity: 0.1;
+  
+  .slideshow_card li:nth-child(1) {
+    background-image: url(./img/hero.jpeg);
+    animation-delay: 1s;
   }
-  30% {
-    opacity: 0;
+  .slideshow_card li:nth-child(2) {
+    background-image: url(./img/slide2.jpg);
+    animation-delay: 10s;
   }
-}
-
-/* Older browser support - .no-cssanimations class added by modernizr */
-.no-cssanimations .slideshow_card li {
-  opacity: 1;
-}
-/* ANIMASI */
-#landing-header {
-  z-index: 1;
-  position: relative;
-  text-align: center;
-  padding-top: 40vh;
-}
-
-.slideshow {
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.slideshow li {
-  width: 100%;
-  height: 108%;
-  position: absolute;
-  top: 107.2%;
-  left: 0;
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  opacity: 0;
-  z-index: 0;
-  animation: imageAnimation 50s linear infinite;
-}
-
-.slideshow li:nth-child(1) {
-  background-image: url(./img/slide1.jpg);
-  animation-delay: 1s;
-}
-.slideshow li:nth-child(2) {
-  background-image: url(./img/slide2.jpg);
-  animation-delay: 10s;
-}
-.slideshow li:nth-child(3) {
-  background-image: url(./img/slide3.jpg);
-  animation-delay: 20s;
-}
-.slideshow li:nth-child(4) {
-  background-image: url(./img/slide4.jpg);
-  animation-delay: 30s;
-}
-
-@keyframes imageAnimation {
-  0% {
-    opacity: 0;
-    animation-timing-function: ease-in;
+  @keyframes imageAnimationCard {
+    0% {
+      animation-timing-function: ease;
+    }
+    10% {
+      opacity: 0.1;
+  
+      animation-timing-function: ease;
+    }
+    20% {
+      opacity: 0.1;
+    }
+    30% {
+      opacity: 0;
+    }
   }
-  10% {
-    opacity: 1;
-    animation-timing-function: ease-out;
-  }
-  20% {
+  
+  /* Older browser support - .no-cssanimations class added by modernizr */
+  .no-cssanimations .slideshow_card li {
     opacity: 1;
   }
-  30% {
-    opacity: 0;
+  /* ANIMASI */
+  #landing-header {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
   }
-}
-
-/* Older browser support - .no-cssanimations class added by modernizr */
-.no-cssanimations .slideshow li {
-  opacity: 1;
-}
-
-/* ==== */
-
-.img-tree {
-  box-sizing: border-box;
-  display: inline-block;
-  height: 289.281px;
-  max-width: 100%;
-  overflow-y: clip;
-  overflow-x: clip;
-  width: 375px;
-  box-shadow: none;
-  color: rgb(51, 51, 51);
-  aspect-ratio: auto 700 / 540;
-  opacity: 0.1;
-  overflow-clip-margin: content-box;
-  hyphens: manual;
-  -webkit-font-smoothing: antialiased;
-}
-
-.img-tree2 {
+  
+  .slideshow {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slideshow li {
+    width: 100%;
+    height: 108%;
+    position: absolute;
+    top: 107.2%;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    opacity: 0;
+    z-index: 0;
+    animation: imageAnimation 50s linear infinite;
+  }
+  
+  .slideshow li:nth-child(1) {
+    background-image: url(./img/slide1.jpg);
+    animation-delay: 1s;
+  }
+  .slideshow li:nth-child(2) {
+    background-image: url(./img/slide2.jpg);
+    animation-delay: 10s;
+  }
+  .slideshow li:nth-child(3) {
+    background-image: url(./img/slide3.jpg);
+    animation-delay: 20s;
+  }
+  .slideshow li:nth-child(4) {
+    background-image: url(./img/slide4.jpg);
+    animation-delay: 30s;
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      opacity: 0;
+      animation-timing-function: ease-in;
+    }
+    10% {
+      opacity: 1;
+      animation-timing-function: ease-out;
+    }
+    20% {
+      opacity: 1;
+    }
+    30% {
+      opacity: 0;
+    }
+  }
+  
+  /* Older browser support - .no-cssanimations class added by modernizr */
+  .no-cssanimations .slideshow li {
+    opacity: 1;
+  }
+  
+  /* ==== */
+  
+  .img-tree {
     box-sizing: border-box;
     display: inline-block;
     height: 289.281px;
@@ -395,782 +378,900 @@ body {
     overflow-clip-margin: content-box;
     hyphens: manual;
     -webkit-font-smoothing: antialiased;
-    margin-top: -70px;
   }
-
-.inisial_nama h2 {
-  font-size: 64px;
-}
-
-.inisial_nama {
-  margin-top: -200px;
-}
-
-.nama_surah > span {
-    color: #5E5E5E;
-    
-    font-size: 24px;
+  
+  .img-tree2 {
+      box-sizing: border-box;
+      display: inline-block;
+      height: 289.281px;
+      max-width: 100%;
+      overflow-y: clip;
+      overflow-x: clip;
+      width: 375px;
+      box-shadow: none;
+      color: rgb(51, 51, 51);
+      aspect-ratio: auto 700 / 540;
+      opacity: 0.1;
+      overflow-clip-margin: content-box;
+      hyphens: manual;
+      -webkit-font-smoothing: antialiased;
+      margin-top: -70px;
+    }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form {
+    margin-top: -230px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .inpText {
+      border: 0px;
+      border-radius: 0px;
+      height: 3em !important;
+      border-bottom: 1px solid #d5deea !important;
+      background: #fbfbfb !important;
+      width: 85%;
+      
+      margin-left: 30px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .inpText2 {
+    border: 0px;
+    border-radius: 0px;
+    height: 3em !important;
+    border-bottom: 1px solid #d5deea !important;
+    background: #fbfbfb !important;
+    width: 100%;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 30px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .pilihKehadiran {
+    border: 0px;
+    border-radius: 0px;
+    height: 3em !important;
+    border-bottom: 1px solid #d5deea !important;
+    background: #fbfbfb !important;
+    width: 100%;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 30px;
     font-weight: bold;
+    opacity: 0.5;
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-weight:bold;
+  }
+  
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .inpText3 {
+    border: 0px;
+    border-radius: 0px;
+    height: 4em !important;
+    border-bottom: 1px solid #d5deea !important;
+    background: #fbfbfb !important;
+    width: 100%;
+    margin-top: 10px;
+    width: 85%;
+    margin-left: 30px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .jumlahTamu {
+    border: 1px solid rgb(226, 221, 221);
+    margin-top: 59px;
+    width: 85%;
+    margin-left: 40px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .jumlahTamu > .jmltamu {
+    font-weight: bolder;
+    opacity: 0.5;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .jumlahTamu {
+    display: none;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > input::placeholder, textarea::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > .karakter {
+    float: right;
+    color: rgb(51, 51, 51);
+    margin-right: 12px;
+  }
+  
+  .inisial_nama h2 {
+    font-size: 64px;
+  }
+  
+  .inisial_nama {
+    margin-top: -200px;
+  }
+  
+  .nama_surah > span {
+      color: #5E5E5E;
+      
+      font-size: 24px;
+      font-weight: bold;
+      font-style: italic;
+      letter-spacing: 2px;
+  }
+  
+  .nama_surah {
+      padding-bottom: 20px;
+  }
+  
+  .arti_surah > p {
+    padding-left: 13px;
+    font-size: 12px;
+    font-weight: normal;
     font-style: italic;
-    letter-spacing: 2px;
-}
-
-.nama_surah {
-    padding-bottom: 20px;
-}
-
-.arti_surah > p {
-  padding-left: 13px;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: italic;
-  padding-right: 13px;
-  font-family: "Poppins", Sans-serif;
-  color: #5E5E5E;
-  line-height: 1.8em;
-}
-
-.title {
-  z-index: 11;
-  position: absolute;
-  width: 100%;
-  text-align: center;
-}
-
-.sub-heading {
-  font-family: "Caveat", cursive;
-  font-size: 3em;
-  margin-top: 2em;
-}
-.details {
-  margin: 0 auto 8em;
-}
-.details-heading {
-  font-weight: bold;
-  text-transform: uppercase;
-}
-.fas {
-  font-size: 3em;
-  opacity: 0.8;
-}
-.resort-image {
-  width: 100%;
-}
-
-.pengantin_pria {
-  margin-top: 120px;
-  height: 340px;
-  background-color: rgba(51, 51, 51, 0.1);
-}
-
-.pengantin_wanita {
-  width: 275px;
-
-  margin-top: 750px;
-  height: 340px;
-  background-color: rgba(51, 51, 51, 0.1);
-}
-
-.pengantin_wanita img {
-  float: left;
-}
-
-.pengantin_pria h2 {
-  transform-origin: 0 0;
-  transform: rotate(270deg);
-  text-orientation: mixed;
-  font-weight: bold;
-  font-size: 50px;
-  font-family: "Analogue", Sans-serif;
-  color: white;
-  margin-top: -10px;
-}
-
-.nama_pengantin_wanita {
-  height: 130%;
-  background-image: linear-gradient(
-    to bottom,
-    #ffffff,
-    #eaeaea,
-    #d5d5d5,
-    #c0c0c0,
-    #acacac
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #ffffff,
-    #faf8fa,
-    #f7f0f4,
-    #f4e8ec,
-    #f2e1e1
-  );
-  background-image: linear-gradient(
-    to bottom,
-    #ffffff,
-    #fafafa,
-    #f6f5f5,
-    #f2eff0,
-    #eeeaea
-  );
-}
-
-.pengantin_wanita h2 {
-  transform-origin: 0 0;
-  transform: rotate(90deg);
-  text-orientation: mixed;
-
-  margin-left: 273px;
-  color: white;
-  width: 90%;
-  font-weight: bold;
-
-  font-size: 50px;
-  font-family: "Analogue", Sans-serif;
-}
-
-.bio_pria {
-  width: 200%;
-}
-
-.pengantin_pria h3 {
-  color: rgb(94, 94, 94);
-  font-family: "Analogue", Sans-serif;
-  line-height: 32px;
-  padding-right: 27px;
-}
-
-.pengantin_wanita h3 {
-  padding-top: 280px;
-
-  color: rgb(94, 94, 94);
-  font-family: "Analogue", Sans-serif;
-  line-height: 32px;
-}
-
-.pengantin_wanita .spn1 {
-  margin-top: 90px;
-  padding-right: 90px;
-  font-size: 12px;
-  color: rgb(94, 94, 94);
-  font-weight: bold;
-}
-
-.pengantin_wanita .spn2 {
-  padding-left: 40px;
-  font-size: 12px;
-  color: rgb(94, 94, 94);
-  font-weight: bold;
-}
-
-.ig_wanita {
-  padding-right: 55px;
-  margin-top: -20px;
-}
-
-.ig_pria {
-  padding-top: 5px;
-  padding-left: 100px;
-}
-
-.pengantin_pria a {
-  height: 30px;
-  width: 120px;
-  border-color: #5e5e5e;
-  background-color: #5e5e5e;
-  font-size: 12px;
-  font-weight: 500;
-}
-
-.ig_wanita a {
-  height: 30px;
-  width: 120px;
-  border-color: #5e5e5e;
-  margin-top: 30px;
-  background-color: #5e5e5e;
-  font-size: 12px;
-  font-weight: 500;
-}
-
-.pengantin_pria .spn1 {
-  padding-left: 125px;
-  font-size: 12px;
-  color: rgb(94, 94, 94);
-  font-weight: bold;
-}
-
-.pengantin_pria .spn2 {
-  font-size: 12px;
-  color: rgb(94, 94, 94);
-  font-weight: bold;
-}
-
-.pengantin_pria img {
-  margin-left: 30px;
-  margin-top: -40px;
-  box-shadow: 10px 10px rgba(51, 51, 51, 0.1);
-  -moz-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
-  -webkit-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
-  -khtml-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
-}
-
-.pengantin_wanita img {
-  margin-bottom: 20px;
-  margin-top: -40px;
-  box-shadow: 10px 10px rgba(51, 51, 51, 0.1);
-  -moz-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
-  -webkit-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
-  -khtml-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
-}
-
-.bg-card {
-  height: 10px;
-  display: none;
-}
-
-.wedding_event {
-  padding: 80px 32px 128px;
-}
-
-.gallery {
+    padding-right: 13px;
+    font-family: "Poppins", Sans-serif;
+    color: #5E5E5E;
+    line-height: 1.8em;
+  }
+  
+  .title {
+    z-index: 11;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .sub-heading {
+    font-family: "Caveat", cursive;
+    font-size: 3em;
+    margin-top: 2em;
+  }
+  .details {
+    margin: 0 auto 8em;
+  }
+  .details-heading {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .fas {
+    font-size: 3em;
+    opacity: 0.8;
+  }
+  .resort-image {
+    width: 100%;
+  }
+  
+  .pengantin_pria {
+    margin-top: 120px;
+    height: 340px;
+    background-color: rgba(51, 51, 51, 0.1);
+  }
+  
+  .pengantin_wanita {
+    width: 275px;
+  
+    margin-top: 750px;
+    height: 340px;
+    background-color: rgba(51, 51, 51, 0.1);
+  }
+  
+  .pengantin_wanita img {
+    float: left;
+  }
+  
+  .pengantin_pria h2 {
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    text-orientation: mixed;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Analogue", Sans-serif;
+    color: white;
+    margin-top: -10px;
+  }
+  
+  .nama_pengantin_wanita {
+    height: 130%;
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #eaeaea,
+      #d5d5d5,
+      #c0c0c0,
+      #acacac
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #faf8fa,
+      #f7f0f4,
+      #f4e8ec,
+      #f2e1e1
+    );
+    background-image: linear-gradient(
+      to bottom,
+      #ffffff,
+      #fafafa,
+      #f6f5f5,
+      #f2eff0,
+      #eeeaea
+    );
+  }
+  
+  .pengantin_wanita h2 {
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    text-orientation: mixed;
+  
+    margin-left: 273px;
+    color: white;
+    width: 90%;
+    font-weight: bold;
+  
+    font-size: 50px;
+    font-family: "Analogue", Sans-serif;
+  }
+  
+  .bio_pria {
+    width: 200%;
+  }
+  
+  .pengantin_pria h3 {
+    color: rgb(94, 94, 94);
+    font-family: "Analogue", Sans-serif;
+    line-height: 32px;
+    padding-right: 27px;
+  }
+  
+  .pengantin_wanita h3 {
+    padding-top: 280px;
+  
+    color: rgb(94, 94, 94);
+    font-family: "Analogue", Sans-serif;
+    line-height: 32px;
+  }
+  
+  .pengantin_wanita .spn1 {
+    margin-top: 90px;
+    padding-right: 90px;
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+  
+  .pengantin_wanita .spn2 {
+    padding-left: 40px;
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+  
+  .ig_wanita {
+    padding-right: 55px;
+    margin-top: -20px;
+  }
+  
+  .ig_pria {
+    padding-top: 5px;
+    padding-left: 100px;
+  }
+  
+  .pengantin_pria a {
+    height: 30px;
+    width: 120px;
+    border-color: #5e5e5e;
+    background-color: #5e5e5e;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .ig_wanita a {
+    height: 30px;
+    width: 120px;
+    border-color: #5e5e5e;
+    margin-top: 30px;
+    background-color: #5e5e5e;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  
+  .pengantin_pria .spn1 {
+    padding-left: 125px;
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+  
+  .pengantin_pria .spn2 {
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+  
+  .pengantin_pria img {
+    margin-left: 30px;
+    margin-top: -40px;
+    box-shadow: 10px 10px rgba(51, 51, 51, 0.1);
+    -moz-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -webkit-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -khtml-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+  }
+  
+  .pengantin_wanita img {
+    margin-bottom: 20px;
+    margin-top: -40px;
+    box-shadow: 10px 10px rgba(51, 51, 51, 0.1);
+    -moz-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -webkit-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+    -khtml-box-shadow: 10px 10px 5px rgba(51, 51, 51, 0.1);
+  }
+  
+  .bg-card {
+    height: 10px;
+    display: none;
+  }
+  
+  .wedding_event {
     padding: 80px 32px 128px;
   }
-
-
-
-.akad_nikah {
-  padding: 80px 32px 128px;
-}
-
-.resepsi_nikah {
-  padding: 80px 32px 128px;
-  margin-top: -150px;
-}
-
-.car {
-  border-top-right-radius: 70%;
-}
-.wedding {
-  padding-right: 200px;
-  font-size: 30px;
-}
-
-.galerry1 {
-    float: right;
-    font-size: 40px;
-  }
-
-  .gallery2 {
-    font-family: "Creattion Demo";
-    font-size: 50px;
-    float: right;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 0;
-  }
-
-.event {
-    font-family: "Creattion Demo";
-    font-size: 50px;
-    float: left;
-    font-style: italic;
-    font-weight: normal;
-    line-height: 0;
-    margin-top: 30px;
-    margin-left: -20px;
-}
-
-/* .paralaximage > .container-fluid > .row > .col_img > img {
-    width: 360px;
-    height: 150px;
-    padding: 0px;
-} */
-
-.paralaximage {
-    background-image: url(./img/foto11.jpg);
-    opacity: 0.7;
-    background-repeat: no-repeat;
-    background-position: 50% 60%;
-    background-attachment: scroll;
-    background-size: 100% 160px;
-    margin: 0;
-    padding: 157px;
-    background-position: 0 90px;
-}
-
-.paralaximage > .rsvp {
-    
-    color: #ffffff;
-    display: block;
-    font-family: "Analogue";
-    font-size: 40px;
-    font-weight: normal;
-    text-shadow: 0 0 10px #000;
-    text-size-adjust: 100%;
-    letter-spacing: 1px;
-    -webkit-font-smoothing: antialiased;
-    float: left;
-    margin-left: -40px;
-    margin-top: -20px;
-    font-style: italic;
-}
-
-.paralaximage > .wishes {
-    
-    color: #ffffff;
-    display: block;
-    font-family: "Creattion Demo";
-    font-size: 20px;
-    font-weight: normal;
-    text-shadow: 0 0 10px #000;
-    text-size-adjust: 100%;
-    letter-spacing: 1px;
-    -webkit-font-smoothing: antialiased;
-    float: left;
-    margin-left: 10px;
-    margin-top: -20px;
-    font-style: italic;
-}
-
-
-
-.resepsi_nikah > .card > .card-body .col-resepsi {
-  margin-top: -1px;
-}
-
-.col-resepsi h1 {
-  color: white;
-  transform-origin: 0 0;
-  transform: rotate(90deg);
-  text-orientation: mixed;
-  font-weight: bold;
-  width: 200px;
-  margin-top: 100px;
-  padding-top: 0px;
-  margin-left: 42px;
-}
-
-.col-akad h1 {
-  color: white;
-  transform-origin: 0 0;
-  transform: rotate(270deg);
-  text-orientation: mixed;
-  font-weight: bold;
-  width: 200px;
-  margin-top: 300px;
-  padding-top: 0px;
-}
-
-.col-tgl-akad {
-  padding: 32px 16px 16px 24px;
-}
-
-.col-tgl-akad h1 {
-  font-size: 70px;
-  font-weight: 400;
-  color: rgb(94, 94, 94);
-}
-
-.col-tgl-akad span {
-  font-size: 15px;
-  font-weight: 400;
-  color: rgb(94, 94, 94);
-  font-family: "Poppins", Sans-serif;
-  letter-spacing: 2px;
-  float: left;
-}
-
-.col-tgl-resepsi {
-  padding: 32px 16px 16px 24px;
-}
-
-.col-tgl-resepsi h1 {
-  font-size: 70px;
-  font-weight: 400;
-  color: rgb(94, 94, 94);
-}
-
-.col-tgl-resepsi span {
-  font-size: 15px;
-  font-weight: 400;
-  color: rgb(94, 94, 94);
-  font-family: "Poppins", Sans-serif;
-  letter-spacing: 2px;
-  float: left;
-}
-
-.col-bulan-akad {
-  padding: 32px 16px 16px 24px;
-}
-
-.col-bulan-resepsi {
-  padding: 32px 16px 16px 24px;
-}
-
-.divider_wedding {
-  margin-top: -170px;
-  margin-bottom: 1rem;
-  border: 4;
-  margin-left: 210px;
-  border-top: 2px solid gray;
-}
-
-.divider_gallery {
-    margin-top: -45px;
-    margin-bottom: 1rem;
-    margin-right: 170px;
-    border-top: 2px solid;
-    margin-left: -32px;
-    border-color: #5e5e5e;
-}
-
-.foto1 > img{
-    width: 153px;
-    height: 242px;
-    transition: 0.5s all ease-in-out;
-}
-
   
-.foto1:hover img {
+  .gallery {
+      padding: 80px 32px 128px;
+    }
+  
+  
+  
+  .akad_nikah {
+    padding: 80px 32px 128px;
+  }
+  
+  .resepsi_nikah {
+    padding: 80px 32px 128px;
+    margin-top: -150px;
+  }
+  
+  .car {
+    border-top-right-radius: 70%;
+  }
+  .wedding {
+    padding-right: 200px;
+    font-size: 30px;
+  }
+  
+  .galerry1 {
+      float: right;
+      font-size: 40px;
+    }
+  
+    .gallery2 {
+      font-family: "Creattion Demo";
+      font-size: 50px;
+      float: right;
+      font-style: italic;
+      font-weight: normal;
+      line-height: 0;
+    }
+  
+  .event {
+      font-family: "Creattion Demo";
+      font-size: 50px;
+      float: left;
+      font-style: italic;
+      font-weight: normal;
+      line-height: 0;
+      margin-top: 30px;
+      margin-left: -20px;
+  }
+  
+  /* .paralaximage > .container-fluid > .row > .col_img > img {
+      width: 360px;
+      height: 150px;
+      padding: 0px;
+  } */
+  
+  .paralaximage {
+      background-image: url(./img/foto11.jpg);
+      opacity: 0.7;
+      background-repeat: no-repeat;
+      background-position: 50% 60%;
+      background-attachment: scroll;
+      background-size: 100% 160px;
+      margin: 0;
+      padding: 157px;
+      background-position: 0 90px;
+  }
+  
+  .paralaximage > .rsvp {
+      
+      color: #ffffff;
+      display: block;
+      font-family: "Analogue";
+      font-size: 40px;
+      font-weight: normal;
+      text-shadow: 0 0 10px #000;
+      text-size-adjust: 100%;
+      letter-spacing: 1px;
+      -webkit-font-smoothing: antialiased;
+      float: left;
+      margin-left: -40px;
+      margin-top: -20px;
+      font-style: italic;
+  }
+  
+  .paralaximage > .wishes {
+      
+      color: #ffffff;
+      display: block;
+      font-family: "Creattion Demo";
+      font-size: 20px;
+      font-weight: normal;
+      text-shadow: 0 0 10px #000;
+      text-size-adjust: 100%;
+      letter-spacing: 1px;
+      -webkit-font-smoothing: antialiased;
+      float: left;
+      margin-left: 10px;
+      margin-top: -20px;
+      font-style: italic;
+  }
+  
+  
+  
+  .resepsi_nikah > .card > .card-body .col-resepsi {
+    margin-top: -1px;
+  }
+  
+  .col-resepsi h1 {
+    color: white;
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    text-orientation: mixed;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 100px;
+    padding-top: 0px;
+    margin-left: 42px;
+  }
+  
+  .col-akad h1 {
+    color: white;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    text-orientation: mixed;
+    font-weight: bold;
+    width: 200px;
+    margin-top: 300px;
+    padding-top: 0px;
+  }
+  
+  .col-tgl-akad {
+    padding: 32px 16px 16px 24px;
+  }
+  
+  .col-tgl-akad h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+  }
+  
+  .col-tgl-akad span {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    font-family: "Poppins", Sans-serif;
+    letter-spacing: 2px;
+    float: left;
+  }
+  
+  .col-tgl-resepsi {
+    padding: 32px 16px 16px 24px;
+  }
+  
+  .col-tgl-resepsi h1 {
+    font-size: 70px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+  }
+  
+  .col-tgl-resepsi span {
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    font-family: "Poppins", Sans-serif;
+    letter-spacing: 2px;
+    float: left;
+  }
+  
+  .col-bulan-akad {
+    padding: 32px 16px 16px 24px;
+  }
+  
+  .col-bulan-resepsi {
+    padding: 32px 16px 16px 24px;
+  }
+  
+  .divider_wedding {
+    margin-top: -170px;
+    margin-bottom: 1rem;
+    border: 4;
+    margin-left: 210px;
+    border-top: 2px solid gray;
+  }
+  
+  .divider_gallery {
+      margin-top: -45px;
+      margin-bottom: 1rem;
+      margin-right: 170px;
+      border-top: 2px solid;
+      margin-left: -32px;
+      border-color: #5e5e5e;
+  }
+  
+  .foto1 > img{
+      width: 153px;
+      height: 242px;
+      transition: 0.5s all ease-in-out;
+  }
+  
+    
+  .foto1:hover img {
+      transform: scale(1.1);
+  }
+  
+  .foto2:hover img {
     transform: scale(1.1);
-}
-
-.foto2:hover img {
-  transform: scale(1.1);
-}
-
-.foto3:hover img {
-  transform: scale(1.1);
-}
-
-.foto4:hover img {
-  transform: scale(1.1);
-}
-
-.foto5:hover img {
-  transform: scale(1.1);
-}
-
-.foto6:hover img {
-  transform: scale(1.1);
-}
-
-.foto7:hover img {
-  transform: scale(1.1);
-}
-
-.foto2 > img{
-    width: 153px;
-    height: 242px;
-    transition: 0.5s all ease-in-out;
-}
-
-
-.foto3 > img{
-    width: 153px;
-    height: 242px;
-    transition: 0.5s all ease-in-out;
-}
-
-.foto4 > img{
-    width: 153px;
-    height: 242px;
-    transition: 0.5s all ease-in-out;
-}
-
-.foto5 > img{
-    width: 101px;
-    height: 150px;
-    transition: 0.5s all ease-in-out;
-}
-
-.foto6 > img{
-    width: 205px;
-    height: 150px;
-    transition: 0.5s all ease-in-out;
-}
-
-.foto7 > img{
-    width: 310px;
-    height: 217px;
-    transition: 0.5s all ease-in-out;
-}
-
-.wedding_gift > .container > .row > .wdgift h1 {
-  font-style: italic;
-}
-
-.wedding_gift > .container > .row > .notedgift p {
+  }
+  
+  .foto3:hover img {
+    transform: scale(1.1);
+  }
+  
+  .foto4:hover img {
+    transform: scale(1.1);
+  }
+  
+  .foto5:hover img {
+    transform: scale(1.1);
+  }
+  
+  .foto6:hover img {
+    transform: scale(1.1);
+  }
+  
+  .foto7:hover img {
+    transform: scale(1.1);
+  }
+  
+  .foto2 > img{
+      width: 153px;
+      height: 242px;
+      transition: 0.5s all ease-in-out;
+  }
+  
+  
+  .foto3 > img{
+      width: 153px;
+      height: 242px;
+      transition: 0.5s all ease-in-out;
+  }
+  
+  .foto4 > img{
+      width: 153px;
+      height: 242px;
+      transition: 0.5s all ease-in-out;
+  }
+  
+  .foto5 > img{
+      width: 101px;
+      height: 150px;
+      transition: 0.5s all ease-in-out;
+  }
+  
+  .foto6 > img{
+      width: 205px;
+      height: 150px;
+      transition: 0.5s all ease-in-out;
+  }
+  
+  .foto7 > img{
+      width: 310px;
+      height: 217px;
+      transition: 0.5s all ease-in-out;
+  }
+  
+  .wedding_gift > .container > .row > .wdgift h1 {
+    font-style: italic;
+  }
+  
+  .wedding_gift > .container > .row > .notedgift p {
+      color: #5E5E5E;
+      font-family: "Poppins", Sans-serif;
+      font-size: 13px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.5em;
+      padding: 32px 32px 96px;
+  }
+  
+  .wedding_gift > .container > .row > .btngift {
+    margin-top: -70px;
+  }
+  
+  .kehadiran > .container > .row  > .formKehadiran > form > #kirimPesan {
+    font-size: 14px !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFF;
+    background: #5E5E5E;
+    border-radius: 0px;
+    border: none;
+    margin-top: 15px;
+  }
+  
+  .wedding_gift > .container > .panelGift1  {
+    width: 75%;
+    margin: auto;
+    display: none;
+  }
+  
+  .wedding_gift > .container > .panelGift1 > .col-panel1 > .card {
+    border: none;
+    background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
+  }
+  
+  .wedding_gift > .container > .panelGift2  {
+    width: 75%;
+    margin: 10px auto;
+    display: none;
+  }
+  
+  .wedding_gift > .container > .panelGift2 > .col-panel1 > .card {
+    border: none;
+    background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
+  }
+  
+  
+  
+  .namabank1 {
     color: #5E5E5E;
     font-family: "Poppins", Sans-serif;
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+  }
+  
+  #paste1, #paste2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    background-color: #5E5E5E;
+    border-radius: 0px 0px 0px 0px;
+    padding: 8px 10px 8px 10px;
+    margin-top: 10px;
+  }
+  
+  .an1 {
+    color: #5E5E5E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
     font-weight: normal;
     font-style: normal;
     line-height: 1.5em;
-    padding: 32px 32px 96px;
-}
-
-.wedding_gift > .container > .row > .btngift {
-  margin-top: -70px;
-}
-
-.wedding_gift > .container > .panelGift1  {
-  width: 75%;
-  margin: auto;
-  display: none;
-}
-
-.wedding_gift > .container > .panelGift1 > .col-panel1 > .card {
-  border: none;
-  background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
-}
-
-.wedding_gift > .container > .panelGift2  {
-  width: 75%;
-  margin: 10px auto;
-  display: none;
-}
-
-.wedding_gift > .container > .panelGift2 > .col-panel1 > .card {
-  border: none;
-  background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
-}
-
-
-
-.namabank1 {
-  color: #5E5E5E;
-  font-family: "Poppins", Sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-style: normal;
-  letter-spacing: 1.5px;
-  margin-top: 10px;
-}
-
-#paste1, #paste2 {
-  font-family: "Poppins", Sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  letter-spacing: 1.5px;
-  background-color: #5E5E5E;
-  border-radius: 0px 0px 0px 0px;
-  padding: 8px 10px 8px 10px;
-  margin-top: 10px;
-}
-
-.an1 {
-  color: #5E5E5E;
-  font-family: "Poppins", Sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  font-style: normal;
-  line-height: 1.5em;
-  letter-spacing: 1px;
-  margin-top: 10px;
-}
-
-.norek1, .norek2 {
-  color: #5E5E5E;
-  font-family: "Poppins", Sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  font-style: normal;
-  line-height: 1.5em;
-  letter-spacing: 1.5px;
-  margin-top: 10px;
-}
-
-.wedding_gift > .container > .row > .btngift a {
-  font-family: "Poppins", Sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  letter-spacing: 2px;
-  fill: #FFFFFF;
-  color: #FFFFFF;
-  background-color: #5E5E5E;
-  border-radius: 0px 0px 0px 0px;
-  padding: 8px 20px 8px 20px;
-}
-
-
-.divider-tgl-akad {
-  border: 4;
-  border-color: black;
-  margin-left: 30px;
-  margin-top: -10px;
-}
-
-.divider-tgl-resepsi {
-  border: 4;
-  border-color: black;
-  margin-left: 30px;
-  margin-top: -10px;
-}
-
-.akad_nikah .card {
-  border-top-right-radius: 50%;
-}
-
-.resepsi_nikah .card {
-  border-top-left-radius: 50%;
-}
-
-.akad_nikah .card .slider img {
-  border-top-right-radius: 50%;
-  height: 250px;
-}
-
-.resepsi_nikah .card .slider img {
-  border-top-left-radius: 50%;
-  height: 250px;
-}
-
-.col-jam-akad span {
-  float: left;
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  line-height: 18px;
-  color: rgb(94, 94, 94);
-  font-weight: bold;
-}
-.col-jam-akad > span > i {
-  display: inline-block;
-  margin-bottom: -3px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.col-jam-resepsi span {
-  float: left;
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  line-height: 18px;
-  color: rgb(94, 94, 94);
-  font-weight: bold;
-}
-.col-jam-resepsi > span > i {
-  display: inline-block;
-  margin-bottom: -3px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.akad_nikah > .card {
-  width: 29rem;
-}
-
-.akad_nikah > .card > .card-body > .container > .row {
-  margin-top: -10px;
-  margin-left: -25px;
-  width: 290px;
-  height: 430px;
-}
-
-.akad_nikah > .card > .card-body > .container {
-  height: 410px;
-}
-
-.resepsi_nikah > .card {
-  width: 30.2rem;
-}
-
-.resepsi_nikah > .card > .card-body {
-  padding: 0px;
-}
-
-.resepsi_nikah > .card > .card-body > .container > .row {
-  margin-top: 1px;
-  margin-left: -28x;
-  width: 300px;
-}
-
-.col-jam-resepsi span {
-  float: left;
-  font-size: 14px;
-  letter-spacing: 1.5px;
-  line-height: 18px;
-  color: rgb(94, 94, 94);
-  font-weight: bold;
-}
-.col-jam-resepsi > span > i {
-  display: inline-block;
-  margin-bottom: -3px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.col-lokasi-acara span {
-  float: left;
-  margin-left: 20px;
-  color: rgb(51, 51, 51);
-  font-size: 16px;
-  font-weight: bold;
-  padding-top: 30px;
-}
-
-.col-alamat-akad .alamat1 {
-  float: left;
-  padding-top: 15px;
-  margin-left: 19px;
-  text-align: justify;
-  font-size: 12px;
-  font-weight: bold;
-  color: rgb(94, 94, 94);
-  line-height: 18px;
-}
-
-.col-alamat-akad .alamat2 {
-  float: left;
-  padding-top: 5px;
-  margin-left: 20px;
-  text-align: justify;
-  font-size: 12px;
-  font-weight: 400;
-  color: rgb(94, 94, 94);
-  line-height: 18px;
-}
-
-.col-link-maps-akad a {
-  font-family: "Poppins", Sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  letter-spacing: 2px;
-  fill: #5e5e5e;
-  color: #5e5e5e;
-  background-color: #5e5e5e00;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-color: #5e5e5e;
-  border-radius: 0px 0px 0px 0px;
-  padding: 8px 15px 8px 15px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -12px;
-}
-
-.col-link-maps-resepsi a {
-  font-family: "Poppins", Sans-serif;
-  font-size: 12px;
-  font-weight: normal;
-  letter-spacing: 2px;
-  fill: #5e5e5e;
-  color: #5e5e5e;
-  background-color: #5e5e5e00;
-  border-style: solid;
-  border-width: 1px 1px 1px 1px;
-  border-color: #5e5e5e;
-  border-radius: 0px 0px 0px 0px;
-  padding: 8px 15px 8px 15px;
-  float: left;
-  margin-left: 20px;
-  margin-top: -9px;
-}
-
-
-
-@media only screen and (max-width: 600px) {
-  .heading {
-    font-size: 42px;
+    letter-spacing: 1px;
+    margin-top: 10px;
   }
-}
+  
+  .norek1, .norek2 {
+    color: #5E5E5E;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5em;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+  }
+  
+  .wedding_gift > .container > .row > .btngift a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #5E5E5E;
+    border-radius: 0px 0px 0px 0px;
+    padding: 8px 20px 8px 20px;
+  }
+  
+  
+  .divider-tgl-akad {
+    border: 4;
+    border-color: black;
+    margin-left: 30px;
+    margin-top: -10px;
+  }
+  
+  .divider-tgl-resepsi {
+    border: 4;
+    border-color: black;
+    margin-left: 30px;
+    margin-top: -10px;
+  }
+  
+  .akad_nikah .card {
+    border-top-right-radius: 50%;
+  }
+  
+  .resepsi_nikah .card {
+    border-top-left-radius: 50%;
+  }
+  
+  .akad_nikah .card .slider img {
+    border-top-right-radius: 50%;
+    height: 250px;
+  }
+  
+  .resepsi_nikah .card .slider img {
+    border-top-left-radius: 50%;
+    height: 250px;
+  }
+  
+  .col-jam-akad span {
+    float: left;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+  .col-jam-akad > span > i {
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .col-jam-resepsi span {
+    float: left;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+  .col-jam-resepsi > span > i {
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .akad_nikah > .card {
+    width: 29rem;
+  }
+  
+  .akad_nikah > .card > .card-body > .container > .row {
+    margin-top: -10px;
+    margin-left: -25px;
+    width: 290px;
+    height: 430px;
+  }
+  
+  .akad_nikah > .card > .card-body > .container {
+    height: 410px;
+  }
+  
+  .resepsi_nikah > .card {
+    width: 30.2rem;
+  }
+  
+  .resepsi_nikah > .card > .card-body {
+    padding: 0px;
+  }
+  
+  .resepsi_nikah > .card > .card-body > .container > .row {
+    margin-top: 1px;
+    margin-left: -28x;
+    width: 300px;
+  }
+  
+  .col-jam-resepsi span {
+    float: left;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 18px;
+    color: rgb(94, 94, 94);
+    font-weight: bold;
+  }
+  .col-jam-resepsi > span > i {
+    display: inline-block;
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .col-lokasi-acara span {
+    float: left;
+    margin-left: 20px;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 30px;
+  }
+  
+  .col-alamat-akad .alamat1 {
+    float: left;
+    padding-top: 15px;
+    margin-left: 19px;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(94, 94, 94);
+    line-height: 18px;
+  }
+  
+  .col-alamat-akad .alamat2 {
+    float: left;
+    padding-top: 5px;
+    margin-left: 20px;
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(94, 94, 94);
+    line-height: 18px;
+  }
+  
+  .col-link-maps-akad a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    fill: #5e5e5e;
+    color: #5e5e5e;
+    background-color: #5e5e5e00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #5e5e5e;
+    border-radius: 0px 0px 0px 0px;
+    padding: 8px 15px 8px 15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -12px;
+  }
+  
+  .col-link-maps-resepsi a {
+    font-family: "Poppins", Sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    fill: #5e5e5e;
+    color: #5e5e5e;
+    background-color: #5e5e5e00;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #5e5e5e;
+    border-radius: 0px 0px 0px 0px;
+    padding: 8px 15px 8px 15px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -9px;
+  }
+  
+  
+  
+  @media only screen and (max-width: 600px) {
+    .heading {
+      font-size: 42px;
+    }
+  }
+  

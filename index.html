@@ -55,7 +55,7 @@
       </a>
     </header>
     <!-- <a data-scroll class="fixed-button" href="#rsvp" id="rsvpButton">RSVP</a>  -->
-    
+
     <section class="section-landing">
       <div id="landing-header">
         <span class="heading-subtext-4"> THE WEDDING OF</span>
@@ -142,7 +142,7 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-             <h3 class="wedding">Wedding</h3>
+              <h3 class="wedding">Wedding</h3>
             </div>
           </div>
           <div class="row">
@@ -151,8 +151,6 @@
             </div>
           </div>
         </div>
-        
-       
       </div>
       <hr class="divider_wedding" />
       <div class="akad_nikah">
@@ -520,7 +518,11 @@
                     </div>
                     <div class="row">
                       <div class="col-12">
-                        <a onclick="pasteNorek2()" id="paste2" class="rounded-0 btn btn-dark">
+                        <a
+                          onclick="pasteNorek2()"
+                          id="paste2"
+                          class="rounded-0 btn btn-dark"
+                        >
                           <i style="color: #fff" class="fa fa-paste"></i> Salin
                           No. Rek
                         </a>
@@ -538,12 +540,105 @@
         <h1 class="rsvp">RSVP</h1>
         <h1 class="wishes">WISHES</h1>
       </div>
-      
+
       <div class="kehadiran">
         <img class="img-tree2" src="img/bg-tree.png" alt="" />
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 formKehadiran">
+              <form class="form-group" action="">
+                <input
+                  type="text"
+                  class="shadow-none inpText"
+                  placeholder="Nama Kamu"
+                />
+                <input
+                  type="text"
+                  class="inpText2"
+                  placeholder="Hubungan (Saudara, Teman Kerja, Teman Kuliah, dll)"
+                />
+                <textarea
+                  maxlength="500"
+                  placeholder="Berikan Ucapan & Doa terbaik untuk Kedua Mempelai"
+                  name=""
+                  id=""
+                  rows="7"
+                  class="inpText3"
+                ></textarea>
+                <small class="karakter">500</small>
+                <select class="pilihKehadiran" name="konfirmasi">
+                  <option value="Tidak Konfirmasi">
+                    Pilih Konfirmasi Kehadiran
+                  </option>
+                  &gt;
+                  <option value="Hadir">Hadir</option>
+                  <option value="Tidak Hadir">Tidak Hadir</option>
+                  <option value="Masih Ragu">Masih Ragu</option>
+                </select>
+
+                <div class="jumlahTamu">
+                  <span class="jmltamu">Jumlah Tamu Hadir</span>
+                  <div
+                    style="
+                      margin-top: 5px;
+                      display: flex;
+                      justify-content: space-evenly;
+                    "
+                  >
+                    <div class="optionnya">
+                      <input
+                        name="tamu"
+                        id="tamu0"
+                        type="radio"
+                        value="1"
+                        style="margin-right: 4px; height: 10px;"
+                      /><label
+                        for="tamu0"
+                        style="margin-bottom: 2px !important; font-size: 14px;"
+                      >
+                        1 <span class="txt_tamu" style="font-size: 14px;">Tamu</span></label
+                      >
+                    </div>
+                    <div class="optionnya">
+                      <input
+                        name="tamu"
+                        id="tamu1"
+                        type="radio"
+                        value="2"
+                        style="margin-right: 4px; height: 10px"
+                      /><label
+                        for="tamu1"
+                        style="margin-bottom: 2px !important; font-size: 14px;"
+                      >
+                        2 <span class="txt_tamu" style="font-size: 14px;">Tamu</span></label
+                      >
+                    </div>
+                    <div class="optionnya">
+                      <input
+                        name="tamu"
+                        id="tamu2"
+                        type="radio"
+                        value="3"
+                        style="margin-right: 4px; height: 10px"
+                      /><label
+                        for="tamu2"
+                        style="margin-bottom: 2px !important; font-size: 14px;"
+                      >
+                        3 <span class="txt_tamu" style="font-size: 14px;">Tamu</span></label
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <a id="kirimPesan" class="rounded-0 btn btn-dark">
+                  SEND
+                  <i style="color: #fff" class="fa fa-thin fa-arrow-right"></i>
+                </a>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-           
-      
     </section>
 
     <!-- <div class="details"><i class="fas fa-reply"></i><h3 class="details-heading" id="rsvp">RSVP</h3><p>[Embed your RSVP form here]</p></div> -->
