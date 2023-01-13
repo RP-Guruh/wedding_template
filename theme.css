@@ -924,7 +924,7 @@
       
       color: #ffffff;
       display: block;
-      font-family: "Creattion Demo";
+      font-family: "Creattion";
       font-size: 20px;
       font-weight: normal;
       text-shadow: 0 0 10px #000;
@@ -1158,7 +1158,53 @@
     background-image: linear-gradient(to left bottom, #cccfc6, #d8dbd3, #e5e7e1, #f1f3ee, #fefffc);
   }
   
-  
+  .sayThanks {
+    overflow-y: hidden;
+    background-image: linear-gradient(to bottom, rgba(255, 250, 250, 0.656) 30%,rgba(0,0,0,0) 100%), url(./img/foto3.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100%;
+    margin-top: 90px;
+    padding-top: 600px;
+  }
+
+.sayThanks h1 {
+    margin-top: -120%;
+    color: #FFFFFF;
+    font-family: "Creattion Demo";
+    font-size: 60px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.sayThanks span {
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 2em;
+    width: 40px;
+    text-align: center;
+}
+
+.sayThanks .text1 {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.sayThanks .text2 {
+    color: #FFFFFF;
+    font-family: "Analogue", Sans-serif;
+    font-size: 26px;
+    font-weight: normal;
+    font-style: italic;
+}
   
   .namabank1 {
     color: #5E5E5E;
@@ -1167,7 +1213,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-style: normal;
-    letter-spacing: 1.5px;
+    letter-spacing: 2.5px;
     margin-top: 10px;
   }
   
@@ -1390,7 +1436,44 @@
     margin-top: -9px;
   }
   
-  
+  .footer {
+    background-color: #f9eded;
+    height: 280px;
+  }
+
+  .footer > .boxlinksitus {
+    padding-top: 100px;
+  }
+
+  .footer > .boxlinksitus > .sosmedsitus {
+    color: #5E5E5E;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 0.6em;
+    font-weight: normal;
+    line-height: 2em;
+    letter-spacing: 2px;
+    padding-top: 10px;
+  }
+
+  .footer > .boxlinksitus > .hubungikami {
+    color: #5E5E5E;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 2em;
+    letter-spacing: 2px;
+    padding-top: 20px;
+  }
+
+
+
+  .footer > .boxlinksitus > .linksitus {
+    color: #5E5E5E;
+    font-family: "Nunito Sans", Sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
   
   @media only screen and (max-width: 600px) {
     .heading {
