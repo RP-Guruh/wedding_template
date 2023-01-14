@@ -12,12 +12,12 @@ $(document).ready(function(){
 
   $("#playPauseMusic").click(function() {
     if (btnMusic.getAttribute("data-active") == 1) {
-      $('.rotating').css('animation-play-state', 'running');
-        sound.play();
-        btnMusic.setAttribute("data-active", 0);
-    } else {
       $('.rotating').css('animation-play-state', 'paused');
         sound.pause();
+        btnMusic.setAttribute("data-active", 0);
+    } else {
+      $('.rotating').css('animation-play-state', 'running');
+        sound.play();
         btnMusic.setAttribute("data-active", 1);
     }
 });
@@ -29,7 +29,7 @@ $(document).ready(function(){
   });
 
   $("#bukaUndangan").click(function(){
-     $(".section-landing").slideDown("2000");
+    $(".section-landing").slideDown("2000");
     $(".bg_list_pengantin").slideDown("2000");
     $(".bg-card").slideDown("2000");
     $("#bukaUndangan").css("color", "white");

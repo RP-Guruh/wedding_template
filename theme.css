@@ -210,7 +210,7 @@
     margin: 0 auto;
     height: 100%;
     width: 100%;
-   
+    display: none;
   }
   
   .bg_list_pengantin {
@@ -1505,7 +1505,7 @@
     -ms-animation: rotating 2s linear infinite;
     -o-animation: rotating 2s linear infinite;
     animation: rotating 2s linear infinite;
-    animation-play-state: paused;
+
   }
   
   @media only screen and (max-width: 600px) {
