@@ -9,9 +9,11 @@
     font-family: "Poppins";
     font-family: "Creattion Demo";
   
-    src: url("fonts/Analogue/Analogue.otf");
-    src: url("fonts/Poppins/Poppins-Bold.ttf");
-    src: url("icons/webfonts/Creattion Demo.TTF");
+
+    src: url("fonts/Analogue.otf");
+    src: url("fonts/PoppinsSemiBold.ttf");
+    src: url("fonts/CreattionDemo.ttf");
+   
   }
   
   
@@ -49,16 +51,16 @@
   .heading-subtext {
     color: #fff;
     display: block;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 0.6em;
   }
   
   .heading-subtext-2 {
     padding-bottom: 28px;
     color: #ffffff;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     display: block;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 18px;
     line-height: 18px;
   }
@@ -66,7 +68,7 @@
   .heading-curve {
     color: #ffffff;
     direction: ltr;
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins";
     font-size: 25px;
     font-weight: 400;
     height: auto;
@@ -81,7 +83,7 @@
   .heading-subtext-3 {
     color: #ffffff;
     display: block;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 14px;
     letter-spacing: 2px;
     line-height: 14px;
@@ -151,7 +153,7 @@
     display: inline-block;
     height: 39px;
     width: 170.156px;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 15px;
     line-height: 15px;
     text-align: center;
@@ -465,7 +467,7 @@
 
   .protokolKesehatan > .container > .row > .protokol > span {
     color: #5E5E5E;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -480,7 +482,7 @@
 
 .protokolKesehatan > .container > .row > .himbauan > span {
     color: #5E5E5E;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 13px;
     font-weight: bold;
     font-style: normal;
@@ -510,7 +512,7 @@
 
 .protokolKesehatan > .container > .row > .icon1 > .row > .keticon1 > span {
     color: #5E5E5E;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 11px;
     font-weight: normal;
     font-style: italic;
@@ -538,7 +540,7 @@
 
 .protokolKesehatan > .container > .row > .icon2 > .row > .keticon2 > span {
    color: #5E5E5E;
-   font-family: "Poppins", Sans-serif;
+   font-family: "Poppins";
    font-size: 11px;
    font-weight: normal;
    font-style: italic;
@@ -564,7 +566,7 @@
 
 .protokolKesehatan > .container > .row > .icon3 > .row > .keticon3 > span {
    color: #5E5E5E;
-   font-family: "Poppins", Sans-serif;
+   font-family: "Poppins";
    font-size: 11px;
    font-weight: normal;
    font-style: italic;
@@ -631,7 +633,7 @@
     font-weight: normal;
     font-style: italic;
     padding-right: 13px;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     color: #5E5E5E;
     line-height: 1.8em;
   }
@@ -687,7 +689,7 @@
     text-orientation: mixed;
     font-weight: bold;
     font-size: 50px;
-    font-family: "Analogue", Sans-serif;
+    font-family: "Analogue";
     color: white;
     margin-top: -10px;
   }
@@ -731,7 +733,7 @@
     font-weight: bold;
   
     font-size: 50px;
-    font-family: "Analogue", Sans-serif;
+    font-family: "Analogue";
   }
   
   .bio_pria {
@@ -740,7 +742,7 @@
   
   .pengantin_pria h3 {
     color: rgb(94, 94, 94);
-    font-family: "Analogue", Sans-serif;
+    font-family: "Analogue";
     line-height: 32px;
     padding-right: 27px;
   }
@@ -749,7 +751,7 @@
     padding-top: 280px;
   
     color: rgb(94, 94, 94);
-    font-family: "Analogue", Sans-serif;
+    font-family: "Analogue";
     line-height: 32px;
   }
   
@@ -924,7 +926,7 @@
       
       color: #ffffff;
       display: block;
-      font-family: "Creattion";
+      font-family: "Creattion Demo";
       font-size: 20px;
       font-weight: normal;
       text-shadow: 0 0 10px #000;
@@ -980,7 +982,7 @@
     font-size: 15px;
     font-weight: 400;
     color: rgb(94, 94, 94);
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     letter-spacing: 2px;
     float: left;
   }
@@ -999,7 +1001,7 @@
     font-size: 15px;
     font-weight: 400;
     color: rgb(94, 94, 94);
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     letter-spacing: 2px;
     float: left;
   }
@@ -1107,7 +1109,7 @@
   
   .wedding_gift > .container > .row > .notedgift p {
       color: #5E5E5E;
-      font-family: "Poppins", Sans-serif;
+      font-family: "Poppins";
       font-size: 13px;
       font-weight: normal;
       font-style: normal;
@@ -1191,7 +1193,7 @@
 
 .sayThanks .text1 {
     color: #FFFFFF;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 13px;
     font-weight: 500;
     font-style: normal;
@@ -1200,7 +1202,7 @@
 
 .sayThanks .text2 {
     color: #FFFFFF;
-    font-family: "Analogue", Sans-serif;
+    font-family: "Analogue";
     font-size: 26px;
     font-weight: normal;
     font-style: italic;
@@ -1208,7 +1210,7 @@
   
   .namabank1 {
     color: #5E5E5E;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 20px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1218,7 +1220,7 @@
   }
   
   #paste1, #paste2 {
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 1.5px;
@@ -1230,7 +1232,7 @@
   
   .an1 {
     color: #5E5E5E;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
@@ -1241,7 +1243,7 @@
   
   .norek1, .norek2 {
     color: #5E5E5E;
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 13px;
     font-weight: 600;
     font-style: normal;
@@ -1251,7 +1253,7 @@
   }
   
   .wedding_gift > .container > .row > .btngift a {
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -1401,7 +1403,7 @@
   }
   
   .col-link-maps-akad a {
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 2px;
@@ -1419,7 +1421,7 @@
   }
   
   .col-link-maps-resepsi a {
-    font-family: "Poppins", Sans-serif;
+    font-family: "Poppins";
     font-size: 12px;
     font-weight: normal;
     letter-spacing: 2px;
