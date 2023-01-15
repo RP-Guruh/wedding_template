@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
   $('.rotating').css('animation-play-state', 'paused');
   var btnMusic = document.getElementById("playPauseMusic");
   btnMusic.setAttribute("data-active", 1);
