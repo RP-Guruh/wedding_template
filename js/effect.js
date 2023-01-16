@@ -65,4 +65,9 @@ $(document).ready(function(){
       $(".jumlahTamu").slideUp("2000");
     }     
 });
+
+$('.pop').click(function() {
+  $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+  $('#imagemodal').modal('show');   
+});
 });
