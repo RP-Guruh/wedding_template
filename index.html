@@ -34,14 +34,13 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
- 
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"
-></script>
+   
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
@@ -52,17 +51,18 @@
       ><img height="48" width="48" src="img/music-album.png" alt="" srcset="" />
     </a>
     <header class="header">
-      <span class="heading-curve fw-bold reveal fade-up"> THE WEDDING OF</span>
-      <span class="heading reveal fade-up"> ARIZKO & DARA </span>
-      <span class="heading-subtext-3 fw-bold reveal fade-bottom"> DEAR</span>
-      <span class="heading-subtext-2 fw-bold reveal fade-bottom">
-       Sdri Siti Fatimah</span
-      >
+   
+      <span class="heading-curve fw-bold"> THE WEDDING OF</span>
+      <span class="heading animate__animated animate__fadeInUp"> ARIZKO & DARA </span>
+      <span class="heading-subtext-3 fw-bold animate__animated animate__fadeInUp"> DEAR</span>
+      <span class="heading-subtext-2 fw-bold animate__animated animate__fadeInUp">
+       Sdri Siti Fatimah</span>
 
-      <a
+      <a 
+      
         style="background-color: black; font-weight: 500"
         id="bukaUndangan"
-        class="rounded-0 btn-header btn btn-dark"
+        class="rounded-0 btn-header btn btn-dark animate__animated animate__fadeInUp"
       >
         <i style="color: #fff" class="fa fa-envelope-open"></i> Buka Undangan
       </a>
@@ -70,7 +70,7 @@
 
     <section class="section-landing">
       <div id="landing-header">
-        <span class="heading-subtext-4"> THE WEDDING OF</span>
+        <span class="heading-subtext-4 animate__animated animate__fadeInDown"> THE WEDDING OF</span>
         <span class="heading"> ARIZKO & DARA</span>
         <span class="heading-subtext-5"> SAVE THE DATE | 25 . 12 . 2022</span>
         <div class="countdown">
@@ -89,18 +89,20 @@
         <li></li>
       </ul>
     </section>
-    <section class="bg_list_pengantin">
+    <section class="bg_list_pengantin"> 
       <div class="bg_daun">
         <img class="img-tree" src="img/bg-tree.png" alt="" />
       </div>
-      <div class="inisial_nama reveal fade-up">
+      
+      <div class="inisial_nama">
         <h2>A | D</h2>
       </div>
-      <div class="nama_surah mt-5 reveal fade-up">
-        <span>QS Ar-Rum 21</span>
+      <div class="nama_surah">
+        <span class="animate__animated animate__fadeInUp">QS Ar-Rum 21</span>
       </div>
-      <div class="arti_surah reveal fade-bottom">
-        <p>
+    
+      <div class="arti_surah">
+        <p id="animasi_satu" class="">
           "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
           pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
           dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa
@@ -116,14 +118,14 @@
         />
         <h2>THE GROOM</h2>
           
-        <h3 class="reveal fade-bottom">Guruh Rachmat Pribadi</h3>
+        <h3 id="animasi_dua" class="">Guruh Rachmat Pribadi</h3>
     
 
         <span class="spn1">Putra Ke-2 Dari :</span>
         <br />
         <span class="spn2">Bapak Jamaluddin dan Ibu Sulistyowati</span>
         <br />
-        <div class="ig_pria reveal fade-bottom">
+        <div class="ig_pria" id="animasi_tiga">
           <a href="#" role="button" class="rounded-0 btn btn-dark">
             <i style="color: #fff" class="fa fa-instagram"></i> INSTAGRAM
           </a>
@@ -137,11 +139,11 @@
           alt=""
         />
         <h2>THE BRIDE</h2>
-        <h3 class="reveal fade-bottom">Fadila Alifia Putri</h3>
+        <h3 id="animasi_empat" class="">Fadila Alifia Putri</h3>
         <span class="spn1">Putri Ke-2 Dari :</span>
         <br />
         <span class="spn2">Bapak Nam Do San dan Ibu Retnowati</span>
-        <div class="ig_wanita reveal fade-bottom">
+        <div id="animasi_lima" class="ig_wanita">
           <a href="#" role="button" class="rounded-0 btn btn-dark">
             <i style="color: #fff" class="fa fa-instagram"></i> INSTAGRAM
           </a>
@@ -162,13 +164,13 @@
           </div>
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-              <h2 class="event">Event</h2>
+              <h2 id="animasi_enam" class="event">Event</h2>
             </div>
           </div>
         </div>
       </div>
-      <hr class="reveal fade-right divider_wedding" />
-      <div class="reveal fade-bottom akad_nikah">
+      <hr id="animasi_tujuh" class="divider_wedding" />
+      <div id="animasi_delapan" class="akad_nikah">
         <div class="card">
           <!-- <img class="card-img-top" src="img/pengantin_pria.jpg" alt="Card image cap"> -->
           <div
@@ -271,7 +273,7 @@
         </div>
       </div>
 
-      <div class="reveal fade-bottom resepsi_nikah">
+      <div id="animasi_sembilan" class=" resepsi_nikah">
         <div class="card">
           <!-- <img class="card-img-top" src="img/pengantin_pria.jpg" alt="Card image cap"> -->
           <div
@@ -382,21 +384,21 @@
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h3 class="reveal fade-up galerry1">Gallery</h3>
+                <h3 id="animasi_sepuluh" class="galerry1">Gallery</h3>
               </div>
             </div>
             <div class="row">
               <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h2 class="gallery2">Our Moment</h2>
+                <h2 id="animasi_sebelas" class="gallery2">Our Moment</h2>
               </div>
             </div>
           </div>
 
-          <hr class="divider_gallery reveal fade-left" />
+          <hr id="animasi_duabelas" class="divider_gallery reveal fade-left" />
 
-                   <div class="container" style="padding-left: 0px; margin-top: 100px">
+          <div class="container" style="padding-left: 0px; margin-top: 100px">
 
-            <div class="row">
+            <div class="row" id="animasi_duapuluhdelapan">
               <div class="pop col-lg-4 col-xs-6 col-md-6 mb-2 mb-lg-0">
                 <img
                   src="img/foto1.jpg"
@@ -414,7 +416,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="animasi_duapuluhsembilan">
               <div class="pop col-lg-4 col-xs-6 col-md-6 ">
                 <img
                   src="img/foto3.jpg"
@@ -434,7 +436,7 @@
   
 
 
-            <div class="row">
+            <div class="row" id="animasi_tigapuluh">
               <div class="pop col-xs-4 col-sm-4 col-md-4 col-lg-4">
                   <img class="w-100 shadow-1-strong mb-2" src="img/foto5.jpg" alt="" srcset="" />               
               </div>
@@ -443,7 +445,7 @@
               </div>
             </div>
 
-            <div class="row">
+            <div class="row" id="animasi_tigapuluhsatu">
               <div class="pop col-xs-12 col-sm-12 col-md-12 col-lg-12">
               
                   <img class="mb-2 w-100" src="img/foto7.jpg" alt="" srcset="" />
@@ -452,7 +454,7 @@
               </div>
             </div>
 
-            <div class="row" style="padding-top: 3px">
+            <div class="row" style="padding-top: 3px" id="animasi_tigapuluhdua">
               <div class="pop col-xs-12 col-sm-12 col-md-12 col-lg-12">
              
                   <img class="mb-2 w-100" src="img/foto8.jpg" alt="" srcset=""/>
@@ -460,7 +462,7 @@
                 
               </div>
             </div>
-            <div class="row" style="padding-top: 3px">
+            <div class="row" style="padding-top: 3px" id="animasi_tigapuluhtiga">
               <div class="pop col-xs-12 col-sm-12 col-md-12 col-lg-12">
        
                   <img class="mb-2 w-100" src="img/foto9.jpg" alt="" srcset="" />
@@ -468,7 +470,7 @@
               </div>
             </div>
 
-            <div class="row" style="padding-top: 3px">
+            <div class="row" style="padding-top: 3px" id="animasi_tigapuluhempat">
               <div class="pop col-xs-12 col-sm-12 col-md-12 col-lg-12">
                
                   <img class="mb-2 w-100" src="img/foto10.jpg" alt="" srcset=""/>
@@ -496,12 +498,12 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 wdgift">
-              <h1>Wedding Gift</h1>
+              <h1 id="animasi_tigabelas">Wedding Gift</h1>
             </div>
           </div>
           <div class="row">
-            <div class="reveal fade-bottom col-xs-12 col-sm-12 col-md-12 col-lg-12 notedgift">
-              <p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 notedgift">
+              <p id="animasi_empatbelas">
                 Bagi bapak/ibu/saudara/i yang ingin mengirimkan hadiah
                 pernikahan dapat melalui virtual account atau e-wallet di bawah
                 ini:
@@ -509,7 +511,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btngift">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btngift" id="animasi_limabelas">
               <a id="flipGift" class="rounded-0 btn btn-dark">
                 KLIK DISINI
                 <i style="color: #fff" class="fa fa-thin fa-arrow-right"></i>
@@ -592,8 +594,8 @@
       </div>
 
       <div class="paralaximage">
-        <h1 class="rsvp">RSVP</h1>
-        <h1 class="wishes">WISHES</h1>
+        <h1 id="animasi_enambelas" class="rsvp">RSVP</h1>
+        <h1 id="animasi_tujuhbelas" class="wishes">WISHES</h1>
       </div>
 
       <div class="kehadiran">
@@ -716,20 +718,20 @@
       <div class="protokolKesehatan">
         <div class="container">
           <div class="row">
-            <div class="reveal fade-up col-xs-12 col-sm-12 col-md-12 col-lg-12 protokol">
-              <span>PROTOKOL COVID 19</span>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 protokol">
+              <span id="animasi_delapanbelas">PROTOKOL COVID 19</span>
             </div>
           </div>
           <div class="row">
-            <div class="reveal fade-bottom col-xs-12 col-sm-12 col-md-12 col-lg-12 himbauan">
-              <span 
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 himbauan">
+              <span id="animasi_sembilanbelas"
                 >Kami menghimbau para tamu undangan agar tetap memperhatikan
                 protokol kesehatan.</span
               >
             </div>
           </div>
 
-          <div class="row reveal fade-bottom">
+          <div class="row" id="animasi_duapuluh">
             <div class="icon1 col-xs-4 col-sm-4 col-md-4 col-lg-4">
               <div class="row">
                 <div class="sanitizer-icon col-xs-4 col-sm-4 col-md-4 col-lg-4">
@@ -775,54 +777,39 @@
       </div>
 
       <div class="sayThanks">
-        <h1 class="reveal fade-up">Terimakasih</h1>
-        <p class="reveal fade-up"
+        <h1 id="animasi_duapuluhsatu" class="">Terimakasih</h1>
+        <p id="animasi_duapuluhdua" class=""
           >Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila
           Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan do’a restu kepada
           kami.</p
         >
-        <h3 class="reveal fade-bottom text1">KAMI YANG BERBAHAGIA</h3>
-        <h3 class="reveal fade-bottom text2">Arizko & Dara</h3>
+        <h3 id="animasi_duapuluhtiga" class="text1">KAMI YANG BERBAHAGIA</h3>
+        <h3 id="animasi_duapuluhempat" class="text2">Arizko & Dara</h3>
       </div>
 
       <div class="footer">
         <div class="boxlinksitus">
-          <span class="reveal fade-up linksitus"
+          <span id="animasi_duapuluhlima" class="linksitus"
             ><i class="fa fa-amazon" style="font-size: 16px"></i>
             inviteams.com</span
           >
-          <p class="reveal fade-bottom sosmedsitus">
+          <p id="animasi_duapuluhenam" class="sosmedsitus">
             WA: 0896 8714 0404 | IG: @inviteams
             <br />
             Copyright © 2021 - 2022
           </p>
-          <p class="reveal fade-bottom hubungikami">Hubungi Kami</p>
+          <p id="animasi_duapuluhtujuh" class="hubungikami">Hubungi Kami</p>
         </div>
       </div>
     </section>
 
-    <!-- <div class="details"><i class="fas fa-reply"></i><h3 class="details-heading" id="rsvp">RSVP</h3><p>[Embed your RSVP form here]</p></div> -->
-    <!-- Include Embedded link of Google Form here in place of # -->
-    <!-- <iframe title="RSVP" src="" style="width:100%;" height="960" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
- 
- 
     <script src="js/timeCountDown.js"></script>
     <script src="js/effect.js"></script>
-    <script src="js/jquery.inview.js"></script>
-    <script src="js/soundMP3.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"
       integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    ></script>
-    <script defer>
-      // var scroll = new SmoothScroll('a[href*="#"]');
-      // var rsvpButton = document.getElementById('rsvpButton')
-      // rsvpButton.addEventListener('click',hideButton,false);
-      // function hideButton() {
-      //   rsvpButton.style.display = 'none';
-      // }
-    </script>
+    ></script>    
   </body>
 </html>

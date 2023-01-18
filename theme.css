@@ -28,6 +28,32 @@
   src: url("fonts/power.woff2") format("woff2");
 }
 
+.slide-top {
+	-webkit-animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
 html,
 body {
   margin: 0;
@@ -170,22 +196,9 @@ body {
   color: rgb(255, 255, 255);
   box-shadow: none;
   cursor: pointer;
-  transition-duration: 0.3s;
-  transition-property: transform;
   text-decoration: none;
   margin-top: 15px;
-  animation-name: btn-anim;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-}
 
-@keyframes btn-anim {
-  from {
-    margin-top: 50px;
-  }
-  to {
-    margin-top: 15px;
-  }
 }
 
 .fixed-button {
@@ -628,6 +641,7 @@ textarea::placeholder {
   font-family: "Poppins", sans-serif;
   color: #5e5e5e;
   line-height: 1.8em;
+  animation-duration: 2s;
 }
 
 .title {
@@ -738,84 +752,13 @@ textarea::placeholder {
   line-height: 32px;
   padding-right: 12px;
   font-size: 25px;
-}
-
-.active.fade-bottom {
-  animation: fade-bottom 1s ease-in;
-}
-.active.fade-right {
-  animation: fade-right 1s ease-in;
-}
-.active.fade-up {
-  -webkit-animation-name: fade-up;
-  animation-name: fade-up;
-  -webkit-animation-duration: 1s;
   animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
 }
 
 
 
-@-webkit-keyframes fade-up {
-  0% {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  visibility: visible;
-  }
-  100% {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-  }
-  }
-  @keyframes fade-up {
-  0% {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  visibility: visible;
-  }
-  100% {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-  }
-  } 
 
-.active.fade-left {
-  animation: fade-left 1s ease-in;
-}
 
-@keyframes fade-left {
-  0% {
-    transform: translateX(-100px);
-   
-  }
-  100% {
-    transform: translateX(0);
- 
-  }
-}
-
-@keyframes fade-right {
-  0% {
-    transform: translateX(100px);
-    
-  }
-  100% {
-    transform: translateX(0);
-   
-  }
-}
-
-@keyframes fade-bottom {
-  0% {
-    transform: translateY(50px);
-    
-  }
-  100% {
-    transform: translateY(0);
-   
-  }
-}
 
 .pengantin_wanita h3 {
   padding-top: 280px;
@@ -824,6 +767,7 @@ textarea::placeholder {
   margin-left: -64px;
   font-family: "Analogue", sans-serif;
   font-size: 25px;
+  animation-duration: 1s;
 }
 
 .pengantin_wanita .spn1 {
@@ -845,11 +789,15 @@ textarea::placeholder {
 .ig_wanita {
   padding-right: 55px;
   margin-top: -20px;
+  animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 .ig_pria {
   padding-top: 5px;
   padding-left: 100px;
+  animation-duration: 3s;
+  animation-timing-function: linear;
 }
 
 .pengantin_pria a {
@@ -1180,6 +1128,7 @@ textarea::placeholder {
   font-size: 40px;
   font-weight: normal;
   font-style: italic;
+  animation-timing-function: linear;
 }
 
 .wedding_gift > .container > .row > .notedgift p {
@@ -1287,6 +1236,7 @@ textarea::placeholder {
   font-size: 60px;
   font-weight: normal;
   font-style: italic;
+  animation-timing-function: linear;
 }
 
 .sayThanks p {
